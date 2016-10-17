@@ -1,4 +1,45 @@
-<!--#include file="top.asp"-->
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>居安之家</title>
+		<meta name="description" content="居安之家" />
+		<meta name="keywords" content="居安之家" />
+		<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="head">
+			<div class="header">
+				<div class="logo">
+					<a href="index.asp"><img src="images/logo.png" alt="logo" /></a>
+				</div>
+				<div class="nav" id="nav">
+					<ul>
+						<li class="this">
+							<a href="index.asp">首页</a>
+						</li>
+						<li>
+							<a href="service.asp">服务</a>
+						</li>
+						<li>
+							<a href="case.asp">案例</a>
+						</li>
+						<li>
+							<a href="#">产品</a>
+						</li>
+						<li>
+							<a href="#">招商加盟</a>
+						</li>
+						<li>
+							<a href="#">关于我们</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 <div class="w-100">
 	<div id="banner_tabs" class="flexslider">
 		<ul class="slides">
@@ -35,7 +76,7 @@
 		<div class="slider-x">
 			<p>防火 / 防盗 / 居家安全监测服务</p>
 			<form action="">
-				<input type="tel" name="" id="" value="" placeholder="请输入手机号码"required="required" pattern="(\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$"/>
+				<input type="tel" name="" id="" value="" placeholder="请输入手机号码" required="required" pattern="(\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$" />
 				<button type="submit">立即预约</button>
 			</form>
 		</div>
@@ -96,58 +137,58 @@
 		<h2>MARKET</h2>
 	</div>
 	<div class="market">
-	    <div class="market-l">
-	        <h2>
+		<div class="market-l">
+			<h2>
 	            <span>60%</span><br />
 	            居民不了解自己家的门锁
 	        </h2>
-	        <p>100起技术性开锁入室盗窃案件<br />
-超9成门锁5分钟内打开</p>
-            <i class="iconfont">&#xe606;</i>
-	    </div>
-	    <div class="market-l">
-	        <h2>
+			<p>100起技术性开锁入室盗窃案件<br /> 超9成门锁5分钟内打开
+			</p>
+			<i class="iconfont">&#xe606;</i>
+		</div>
+		<div class="market-l">
+			<h2>
 	            <span>10亿+</span><br />
 	            居民防火安全意识淡漠
 	        </h2>
-	        <p>过去10年全国共发生火灾191万起，<br />
-造成2.5万人死亡，<br />
-直接财产损失高达145亿元。</p>
-          <i class="iconfont">&#xe606;</i>
-	    </div>
+			<p>过去10年全国共发生火灾191万起，<br /> 造成2.5万人死亡，
+				<br /> 直接财产损失高达145亿元。
+			</p>
+			<i class="iconfont">&#xe606;</i>
+		</div>
 	</div>
 	<div class="market-x">
-	    <div class="market1">
-	        <div class="market-i">
-	            <i>9秒</i>
-	            <p>最快开启A级锁<br />
-的时间</p>
-	        </div>
-	        <div class="market-i">
-	            <i>90%</i>
-	            <p>重门轻锁的<br />
-住户占比</p>
-	        </div>
-	        <span>中消协抽样调查</span>
-	    </div>
-	    <div class="market2">
-	        <div class="market-r">
-	            <i>80%</i>
-	            <p>刑事案件中<br />
-盗窃案占比</p>
-	        </div>
-	        <div class="market-r">
-	            <i>70%</i>
-	            <p>盗窃案中<br />
-入室盗窃占比</p>
-	        </div>
-	        <div class="market-r">
-	            <i>46%</i>
-	            <p>入室盗窃中<br />
-技术开锁占比</p>
-	        </div>
-	        <span>公安机关数据显示</span>
-	    </div>
+		<div class="market1">
+			<div class="market-i">
+				<i>9秒</i>
+				<p>最快开启A级锁<br /> 的时间
+				</p>
+			</div>
+			<div class="market-i">
+				<i>90%</i>
+				<p>重门轻锁的<br /> 住户占比
+				</p>
+			</div>
+			<span>中消协抽样调查</span>
+		</div>
+		<div class="market2">
+			<div class="market-r">
+				<i>80%</i>
+				<p>刑事案件中<br /> 盗窃案占比
+				</p>
+			</div>
+			<div class="market-r">
+				<i>70%</i>
+				<p>盗窃案中<br /> 入室盗窃占比
+				</p>
+			</div>
+			<div class="market-r">
+				<i>46%</i>
+				<p>入室盗窃中<br /> 技术开锁占比
+				</p>
+			</div>
+			<span>公安机关数据显示</span>
+		</div>
 	</div>
 </div>
 <div class="w-100 pc-70">
@@ -312,12 +353,12 @@
 		<h1>10秒登记，免费获得猫眼防盗器有效解决防盗问题</h1>
 		<form action="" class="pt-70">
 			<div class="f1">
-				<input type="text" name="" class="inp1" value="" placeholder="您所在的城市" required="required"/>
-				<input type="tel" name="" class="inp2" value="" placeholder="您的手机号码" required="required" pattern="(\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$"/>
+				<input type="text" name="" class="inp1" value="" placeholder="您所在的城市" required="required" />
+				<input type="tel" name="" class="inp2" value="" placeholder="您的手机号码" required="required" pattern="(\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$" />
 			</div>
 			<div class="f1 mt-40">
-				<input type="text" name="" class="inp1" value="" placeholder="您的称呼" required="required"/>
-				<input type="text" name="" class="inp3" value="" placeholder="请输入验证码" required="required"/>
+				<input type="text" name="" class="inp1" value="" placeholder="您的称呼" required="required" />
+				<input type="text" name="" class="inp3" value="" placeholder="请输入验证码" required="required" />
 				<a href="" class="ver" type="submit">获取验证码</a>
 
 			</div>
@@ -328,41 +369,63 @@
 		</form>
 	</div>
 	<div class="bottom">
-	<div class="w-1000 pc-20">
-		<div class="logo"><img src="images/logof.png" alt="" /></div>
-		<div class="nav-bot">
-			<ul>
-				<li>
-					<a href="">了解我们</a>
-				</li>
-				<li>
-					<a href="">产品展示</a>
-				</li>
-				<li>
-					<a href="">服务案例</a>
-				</li>
-				<li>
-					<a href="">加入我们</a>
-				</li>
-				<li>
-					<a href="">常见问题</a>
-				</li>
-			</ul>
-			<p>陕西居安之家锁业有限公司 2015-2018版权所有 <br /> 网站备案：京ICP备15019436号-2
-			</p>
+		<div class="w-1000 pc-20">
+			<div class="logo"><img src="images/logof.png" alt="" /></div>
+			<div class="nav-bot">
+				<ul>
+					<li>
+						<a href="">了解我们</a>
+					</li>
+					<li>
+						<a href="">产品展示</a>
+					</li>
+					<li>
+						<a href="">服务案例</a>
+					</li>
+					<li>
+						<a href="">加入我们</a>
+					</li>
+					<li>
+						<a href="">常见问题</a>
+					</li>
+				</ul>
+				<p>陕西居安之家锁业有限公司 2015-2018版权所有 <br /> 网站备案：京ICP备15019436号-2
+				</p>
+			</div>
+
+			<div class="phone">
+				<span>24小时服务热线</span>
+				<p>40000-10000</p>
+			</div>
+			<div class="code">
+				<img src="images/code_23.jpg" alt="" />
+			</div>
 		</div>
 
-		<div class="phone">
-			<span>24小时服务热线</span>
-			<p>40000-10000</p>
-		</div>
-		<div class="code">
-			<img src="images/code_23.jpg" alt="" />
+	</div>
+</div>
+
+<div class="right">
+	<div class="right-p">
+		<i class="iconfont">&#xe602;</i>
+		<div>
+			<span>热线电话</span>
+			<p>4000-1000</p>
 		</div>
 	</div>
-
+	<div class="right-c">
+		<i class="iconfont">&#xe603;</i>
+		<div><img src="images/code-r_03.jpg" alt="" /></div>
+	</div>
+	<div class="right-t" id="top">
+		<i class="iconfont">&#xe604;</i>
+		<p>TOP</p>
+	</div>
 </div>
-</div>
 
+</body>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/script.js"></script>
 
-<!--#include file="bottom.asp"-->
+</html>

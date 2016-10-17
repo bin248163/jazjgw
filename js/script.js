@@ -4,6 +4,12 @@ $(function() {
 	body.oncontextmenu = function() {
 		return false;
 	}*/
+	
+	//team
+	$('#team a').click(function(){
+		$(this).addClass("this").siblings("a").removeClass("this");
+		return false;
+	});
 
 	//banner
 	var bannerSlider = new Slider($('#banner_tabs'), {
@@ -21,7 +27,7 @@ $(function() {
 	$('#banner_tabs .flex-next').click(function() {
 		bannerSlider.next()
 	});
-	//二级菜单隐藏
+	//首页视频
 	$('#videoA').click(function() {
 			$('#video').show();
 			return false;
@@ -81,7 +87,7 @@ $(function() {
      //首页tab1
 	
 
-	var $tabList = $('#tablist1 ul li');
+	var $tabList = $('#tablist1 li a');
 	var $tab = $('#tab1');
 	$tabList.hover(function() {
 		$(this).addClass('this').siblings().removeClass('this');
