@@ -31,10 +31,10 @@
 							<a href="product.asp" class="a-f">产品</a>
 						</li>
 						<li>
-							<a href="#" class="a-f">招商加盟</a>
+							<a href="join.asp" class="a-f">招商加盟</a>
 						</li>
 						<li>
-							<a href="#" class="a-f">关于我们</a>
+							<a href="about.asp" class="a-f">关于我们</a>
 						</li>
 					</ul>
 				</div>

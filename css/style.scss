@@ -189,8 +189,8 @@ a{text-decoration:none;color:#1d2024;
         }
     }
 }
-.video-w{background: rgba(0,0,0,.5);position: fixed;top: 0;left: 0;width: 100%;height: 100%;z-index: 9999;display: none;
-    .video{width: 80%;height: 80%;margin:5% auto;background: #000;}
+.video-w{background: rgba(0,0,0,.8);position: fixed;top: 0;left: 0;width: 100%;height: 100%;z-index: 9999;display: none;
+    .video{width: 60%;margin:5% auto;height: 75%;}
     .x{position: absolute;width: 80px;height: 80px;text-align: center;font-size: 50px;color: #fff;line-height: 80px;top: 50px;right: 50px;cursor: pointer;}
 }
 
@@ -287,7 +287,7 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
     }
 }
 //内页样式
-.banner{min-width: $width;background-repeat: no-repeat; background-position: center;}
+.banner{min-width: $width;background-repeat: no-repeat; background-position: center;position: relative;}
 .n-ser{width: 256px;float: left;height: 116px;border: 1px solid #e6e9ed;@include hover;
     i{width: 80px;background-repeat:no-repeat ;background-image: url(../images/ico3.png);height: 80px;float: left;margin-left: 20px;margin-top: 18px;}
     div{float: left;margin-left: 20px;}
@@ -411,7 +411,9 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
 .team-c{width: calc((100% - 60px)/4);float: left;}
 .pb-340{padding-bottom: 340px;}
 //服务故事列表
-.n-100{width: 100%;overflow: hidden;}
+.n-100{width: 100%;
+    &:after{content: "";display: block;clear: both;}
+}
 .n-cases{width: calc((100% - 20px)/2);float: left;margin-bottom: 70px;
     img{height: 240px;}
     h2{font-size: 24px;font-weight: normal;padding-top: 25px;}   
@@ -420,6 +422,9 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
 .n-cases-i{margin: 5px 0 10px;
     i{display: inline-block}
     span{color: #aab2bd;font-size: 14px;margin-right: 20px;}
+    &:hover{
+        i,span{color: $color;}
+    }
 }
 //分页
 .paging{text-align: center;
@@ -466,14 +471,135 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
 .w-hot{width: 1120px;margin: 0 auto;position: relative;overflow: hidden;padding: 40px 30px 0;
     .hot-b{background: #f0f0f0;border: 2px solid #e0e2e4;height: 206px;position: absolute;bottom: 0;left: 0;width: calc(100% - 4px);z-index: -1;}   
 }
-.hot{width: 260px;margin: 0 10px 10px;float: left;text-align: center;
+.hot{width: 260px;margin: 0 10px 10px;float: left;text-align: center;overflow: hidden;
+    div{width: 100%;height: 260px;overflow: hidden;}
     p{font-size: 18px;padding: 10px 0;}
+    img{@include hover(.5s);}
+    a{background: #e0e2e4;}
+    &:hover{
+       img{transform: scale(1.1,1.1);} 
+       p{color: $color;}
+    }
+    
 }
 //居安之家安防产品
-.af{width: calc((100% - 99px)/4);float: left;margin-bottom: 60px;}
-
-
-
+.af-w{height: 940px;min-width: $width;background: url(../images/by_07.jpg) repeat-x;}
+.af{width: calc((100% - 99px)/4);float: left;margin-bottom: 60px;background: #fff;text-align: center;box-shadow:5px 5px 20px #bbb;
+    p{background: url(../images/jr_08.jpg) no-repeat 240px center;font-size: 18px;margin: 10px 0 20px;@include hover}
+    img{@include hover}
+    &:hover{
+        img{transform: translate(0,-20px);}
+        p{transform: translate(0,-20px);color: $color;}
+    }
+}
+.mr-33{margin-right: 33px;}
+//安全技能培训
+.security{background: url(../images/jn_02.jpg) no-repeat center;height: 720px;min-width: $width;}
+.security-c{width: 360px;float: left;font-size: 18px;text-align: center;line-height: 36px;
+    p{padding-top: 30px;}
+    &:hover{
+        p{color: $color;}
+    }
+}
+.mr-50{margin-right: 50px;}
+//免费加盟
+.join{width: 600px;bottom: 10px;left: 50%;margin-left: -300px;position: absolute;
+    p{float: left;width: 380px;font-size: 14px;color: #fff;
+        span{font-size: 30px;font-weight: bold;}
+    }
+    a{float: right;color: $color;background: #fff;text-align: center;width: 200px;height: 44px;font-size: 22px;font-weight: bold;line-height: 44px;border-radius: 44px;
+        &:hover{background: rgba(255,255,255,.7);}
+    }
+}
+.join-x{width: 260px;float: left;margin: 0 66px 20px;text-align: center;padding-bottom: 20px;@include hover;
+    i{width: 200px;margin: 0 auto ;}
+    h2{font-size: 18px;line-height: 24px;padding: 15px 0 10px;@include hover;}
+    p{font-size: 14px;color: #aab2bd;line-height: 20px;@include hover;}
+    &:hover{box-shadow: 2px 2px 15px #ccc;
+        h2,p{color: $color;}
+    }
+}
+//加盟政策
+.policy{min-width: $width;height: 670px;background: url(../images/po_07.jpg) no-repeat center bottom;}
+//加盟对象
+.join-us{width: 50%;float: left;overflow: hidden;position: relative;
+    i{margin: 0 40px 0 80px;float: left;}
+    p{float: left;font-size: 18px;padding-top: 20px;
+        span{font-size: 22px;font-weight: bold;line-height: 40px;}
+    }
+    &:hover{
+        p{color: $color;}
+    }
+    div{position: absolute;background: #ccd1d9;height: 100px;top:20px;right: 0;width: 1px;}
+}
+.ju{min-width: $width;overflow: hidden;background: url(../images/ju_09.jpg) no-repeat center;height: 270px;margin-top: 90px;
+    ul{padding: 60px 0 0 412px;
+        li{font-size: 16px;line-height: 32px;}
+        i{width:24px;height: 24px;display: inline-block;margin-right: 13px;line-height: 24px;text-align: center;color: #fff;font-style: normal;background: $color;border-radius: 50%;}
+    }
+}
+//发展现状
+.deve{float: left;width: calc((100% - 60px)/4);margin-bottom: 20px;position: relative;
+    div{width: 80px;margin-top: -40px;left: 50%;margin-left: -40px;top: 50%;height: 80px;text-align: center;position: absolute;border-radius: 50%;background: rgba(255,255,255,.5);cursor: pointer;@include hover;
+        i{width: 50px;height: 25px;overflow: hidden;margin:20px auto 0;}
+        p{font-size: 14px;line-height: 20px;}
+    }
+    &:hover{
+        div{background: #fff;}
+    }
+}
+.deve-more{float: left;width: calc((100% - 60px)/4);margin-bottom: 20px;height: 160px;background: #e6e9ed;text-align: center;
+    a{line-height: 160px;font-size: 14px;
+       &:hover{color: $color;}
+    }
+}
+.development{background: url(../images/ks_15.jpg) no-repeat center;height: 220px;min-width: $width;}
+//关于居安之家
+.about-logo{width: 360px;height: 170px;float: left;background: #fff;box-shadow: 2px 2px 10px #ccc;}
+.about-right{float: left;font-size: 24px;font-weight: bold;margin-left: 50px;width: calc(100% - 410px);line-height: 36px;padding-top: 10px;}
+.about-3{width: calc((100% - 90px)/3);margin:20px 15px;float: left;font-size: 16px;text-indent: 28px;line-height: 30px;}
+.about-1{width: calc((100% - 90px)/3);margin:50px 15px 20px;float: left;font-size: 16px;text-indent: 28px;line-height: 30px;}
+//品牌理念
+.brand{background: url(../images/ppai_07.jpg) no-repeat center;height: 760px;min-width: $width;
+    .brand-c{height: 80px;margin-bottom: 20px;overflow: hidden;
+        span{width: 80px;height: 65px;display: block;background: #c25e3c;text-align: center;color: #fff;font-size: 20px;float: left;border-radius: 50%;padding-top: 15px;}
+        h2{font-size: 24px;margin-left: 20px;line-height: 80px;float: left;}
+        &:hover{
+            span{background: #d30000;}
+        }
+    }
+    
+}
+.br1{margin-left: 120px;}
+.br2{margin-left: 80px;}
+.br3{margin-left: 40px;}
+.pt-100{padding-top: 100px;}
+//企业文化
+.culture{width: 1300px;overflow: hidden;margin: 0 auto;}
+.cul{width: 260px;float: left;position: relative;
+    div{width: 100%;height:calc(100% - 80px);position: absolute;left: 0;top: 340px;@include hover;text-align: center;color: #fff;background:rgba(0,0,0,.5);padding: 40px 0;}
+    h2{font-size: 24px;font-weight: normal;line-height: 25px;@include hover;}
+    p{font-size: 18px;padding-top: 65px;line-height: 36px;}
+    &:hover{
+        div{top: 0;}
+        h2{padding-top: 60px;font-weight: bold;}
+    }
+}
+//点击滚动
+.gd{width:100%;height:auto;overflow:hidden;position:relative;}
+.gd_prev{height: 70px; font-size: 40px;line-height: 70px;position: absolute;top: 50%;left: -60px;z-index: 9;font-family: "宋体";cursor: pointer;margin-top: -35px;
+    &:hover{color: $color;}
+}
+.gd_next{height: 70px; font-size: 40px;line-height: 70px;position: absolute;top: 50%;right: -60px;z-index: 9;font-family: "宋体";cursor: pointer;margin-top: -35px;
+    &:hover{color: $color;}
+}
+.gd_main{width:10000px;overflow:hidden;position:relative;z-index:1;
+    .gd_main-div{width:$width;float:left;}
+}
+.gd-x{width:($width / 2) - 10px;display:block;float:left;
+    h2{font-size: 24px;font-weight: normal;padding-top: 20px;}
+    p{font-size: 14px;}
+}
 //首页banner样式 更改banner高度只需更改此文件头部定义$banner函数值
 .flexslider {position: relative;width: 100%;height: $banner;overflow: hidden;zoom: 1;background: #eee;
     .slides li {width: 100%;height: 100%;
@@ -503,7 +629,9 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
 .flex-control-nav {width: 100%;position: absolute;bottom: 100px;text-align: center;
     li {margin: 0 3px;display: inline-block;zoom: 1;*display: inline;}
 }
-.flex-control-paging li a {height: 2px;width: 60px;background:#fff;display: block;overflow: hidden;cursor: pointer;line-height: 99em;}
+.flex-control-paging li{width: 60px;
+    a {height: 2px;width: 60px;background:#fff;display: block;overflow: hidden;cursor: pointer;line-height: 99em;}
+} 
 .flex-control-paging li a.flex-active,
 .flex-control-paging li.active a {background:$color;}
 

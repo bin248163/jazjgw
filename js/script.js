@@ -44,7 +44,7 @@ $(function() {
 	
 	var 
 		 index = 0 ;
-		Swidth = 1000 ;
+		Swidth = 1180 ;
 		 timer = null ;
 		   len = $(".gd_title span a").length ; 
 		
@@ -83,6 +83,21 @@ $(function() {
 		$(".gd_prev").click(function(){
 			 index-- ;
 			 PrevPage();
+		});
+		//自动滚动
+		var timer = setInterval(function(){
+				index++ ;
+				NextPage();
+			},4000);
+			
+		$(".gd_next, #gd_main , .gd_prev").mouseover(function(){
+			clearInterval(timer);
+		});
+		$(".gd_next, #gd_main , .gd_prev").mouseleave(function(){
+			timer = setInterval(function(){
+				index++ ;
+				NextPage();
+			},4000);	
 		});
      //首页tab1
 	

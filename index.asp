@@ -191,7 +191,7 @@
 		</div>
 	</div>
 </div>
-<div class="w-100 pc-70">
+<div class="w-100 pt-70">
 	<div class="why">
 		<h1>解决方案</h1>
 		<h2>solution</h2>
@@ -344,7 +344,9 @@
 <div class="video-b">
 	<a href="" id="videoA"><i class="iconfont">&#xe605;</i></a>
 	<div class="video-w" id="video">
-		<div class="video">ship</div>
+		<div class="video">
+			<iframe src="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" allowfullscreen="" frameborder="0" style="width: 100%;height: 100%;"></iframe>
+		</div>
 		<div class="x">x</div>
 	</div>
 </div>

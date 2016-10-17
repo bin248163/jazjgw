@@ -49,6 +49,87 @@
 		<div class="service-m">
 			<a href="case-x.asp">发现更多MORE</a>
 		</div>
+		<span class="gd_prev"><</span>
+		<span class="gd_next">></span>
+		<div class="gd">
+			<div class="gd_main">
+				<div class="gd_main-div">
+					<div class="gd-x mr-20">
+						<a href=""><img src="images/nc1_03.jpg" alt="" /></a>
+						<h2><a href="">居安之家，使家更安心</a></h2>
+						<div class="n-cases-i">
+							<span><i class="iconfont">&#xe600;</i>21</span>
+							<span><i class="iconfont">&#xe601;</i>210</span>
+							<span>2016-08-23</span>
+						</div>
+						<p>换锁让家里更安全换锁让家里更安全让家里更安全换锁换锁让家里更安全换锁 让家里更安全让家里更安全换锁换锁让家里更安全换锁让家里更安全
+						</p>
+					</div>
+					<div class="gd-x">
+						<a href=""><img src="images/nc2_03.jpg" alt="" /></a>
+						<h2><a href="">居安之家，使家更安心</a></h2>
+						<div class="n-cases-i">
+							<span><i class="iconfont">&#xe600;</i>21</span>
+							<span><i class="iconfont">&#xe601;</i>210</span>
+							<span>2016-08-23</span>
+						</div>
+						<p>换锁让家里更安全换锁让家里更安全让家里更安全换锁换锁让家里更安全换锁 让家里更安全让家里更安全换锁换锁让家里更安全换锁让家里更安全
+						</p>
+					</div>
+
+				</div>
+				<div class="gd_main-div">
+					<div class="gd-x mr-20">
+						<a href=""><img src="images/nc1_03.jpg" alt="" /></a>
+						<h2><a href="">居安之家，使家更安心</a></h2>
+						<div class="n-cases-i">
+							<span><i class="iconfont">&#xe600;</i>21</span>
+							<span><i class="iconfont">&#xe601;</i>210</span>
+							<span>2016-08-23</span>
+						</div>
+						<p>换锁让家里更安全换锁让家里更安全让家里更安全换锁换锁让家里更安全换锁 让家里更安全让家里更安全换锁换锁让家里更安全换锁让家里更安全
+						</p>
+					</div>
+					<div class="gd-x">
+						<a href=""><img src="images/nc2_03.jpg" alt="" /></a>
+						<h2><a href="">居安之家，使家更安心</a></h2>
+						<div class="n-cases-i">
+							<span><i class="iconfont">&#xe600;</i>21</span>
+							<span><i class="iconfont">&#xe601;</i>210</span>
+							<span>2016-08-23</span>
+						</div>
+						<p>换锁让家里更安全换锁让家里更安全让家里更安全换锁换锁让家里更安全换锁 让家里更安全让家里更安全换锁换锁让家里更安全换锁让家里更安全
+						</p>
+					</div>
+
+				</div>
+				<div class="gd_main-div">
+					<div class="gd-x mr-20">
+						<a href=""><img src="images/nc1_03.jpg" alt="" /></a>
+						<h2><a href="">居安之家，使家更安心</a></h2>
+						<div class="n-cases-i">
+							<span><i class="iconfont">&#xe600;</i>21</span>
+							<span><i class="iconfont">&#xe601;</i>210</span>
+							<span>2016-08-23</span>
+						</div>
+						<p>换锁让家里更安全换锁让家里更安全让家里更安全换锁换锁让家里更安全换锁 让家里更安全让家里更安全换锁换锁让家里更安全换锁让家里更安全
+						</p>
+					</div>
+					<div class="gd-x">
+						<a href=""><img src="images/nc2_03.jpg" alt="" /></a>
+						<h2><a href="">居安之家，使家更安心</a></h2>
+						<div class="n-cases-i">
+							<span><i class="iconfont">&#xe600;</i>21</span>
+							<span><i class="iconfont">&#xe601;</i>210</span>
+							<span>2016-08-23</span>
+						</div>
+						<p>换锁让家里更安全换锁让家里更安全让家里更安全换锁换锁让家里更安全换锁 让家里更安全让家里更安全换锁换锁让家里更安全换锁让家里更安全
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 <div class="team pc-70">
@@ -67,12 +148,12 @@
 			<a href="">发现更多MORE</a>
 		</div>
 		<div class="w-1000 pb-340">
-			<div class="team-c mr-20" ><img src="images/team1_10.jpg" alt="" /></div>
-			<div class="team-c mr-20"><img src="images/team2_10.jpg" alt="" /></div>
-			<div class="team-c mr-20"><img src="images/team3_10.jpg" alt="" /></div>
-			<div class="team-c"><img src="images/team4_10.jpg" alt="" /></div>
+			<div class="team-c mr-20"><a href=""><img src="images/team1_10.jpg" alt="" /></a></div>
+			<div class="team-c mr-20"><a href=""><img src="images/team2_10.jpg" alt="" /></a></div>
+			<div class="team-c mr-20"><a href=""><img src="images/team3_10.jpg" alt="" /></a></div>
+			<div class="team-c"><a href=""><img src="images/team4_10.jpg" alt="" /></a></div>
 		</div>
-		
+
 	</div>
 </div>
 
