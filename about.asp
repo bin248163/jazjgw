@@ -64,7 +64,7 @@
 	<div class="culture pt-70">
 		<div class="cul">
 			<img src="images/wh1_10.jpg" alt="" />
-			<div>
+			<div class="cul1">
 				<h2>企业价值</h2>
 				<p>为客户居安之家<br /> 为同仁搭建平台
 					<br /> 为股东创造收益
@@ -74,7 +74,7 @@
 		</div>
 		<div class="cul">
 			<img src="images/wh2_10.jpg" alt="" />
-			<div>
+			<div class="cul2">
 				<h2>经营理念</h2>
 				<p>创造四方<br />
 客户/员工/股东/社会 <br />
@@ -84,7 +84,7 @@
 		</div>
 		<div class="cul">
 			<img src="images/wh3_10.jpg" alt="" />
-			<div>
+			<div class="cul3">
 				<h2>管理理念</h2>
 				<p>专业、高效、创新
 				</p>
@@ -92,7 +92,7 @@
 		</div>
 		<div class="cul">
 			<img src="images/wh4_10.jpg" alt="" />
-			<div>
+			<div class="cul4">
 				<h2>社会责任</h2>
 				<p>为亿万家庭提供安全服务
 				</p>
@@ -100,7 +100,7 @@
 		</div>
 		<div class="cul">
 			<img src="images/wh5_10.jpg" alt="" />
-			<div>
+			<div class="cul5">
 				<h2>用人理念</h2>
 				<p>忠诚高于一切
 				</p>
@@ -117,13 +117,11 @@
 		<form action="" class="pt-70">
 			<div class="f1">
 				<input type="text" name="" class="inp1" value="" placeholder="您所在的城市" required="required" />
-				<input type="tel" name="" class="inp2" value="" placeholder="您的手机号码" required="required" pattern="(\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$" />
+				<input type="tel" name="" class="inp2" value="" placeholder="您的地址" required="required"/>
 			</div>
 			<div class="f1 mt-40">
 				<input type="text" name="" class="inp1" value="" placeholder="您的称呼" required="required" />
-				<input type="text" name="" class="inp3" value="" placeholder="请输入验证码" required="required" />
-				<a href="" class="ver" type="submit">获取验证码</a>
-
+				<input type="text" name="" class="inp2" value="" placeholder="您的手机号码" required="required"  pattern="(\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$" />
 			</div>
 			<div class="btn">
 				<button type="submit">我要领取</button>
@@ -133,3 +131,11 @@
 	</div>
 
 	<!--#include file="footer.asp"-->
+		<script type="text/javascript">
+	function curNav(num) {
+		var nav = $('#nav ul li');
+		nav.eq(num).addClass('this');
+	}
+	curNav(5);
+</script>
+	

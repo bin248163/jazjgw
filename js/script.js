@@ -102,19 +102,19 @@ $(function() {
      //首页tab1
 	
 
-	var $tabList = $('#tablist1 li a');
+	var $tabList = $('#tablist1 .market-l');
 	var $tab = $('#tab1');
 	$tabList.hover(function() {
 		$(this).addClass('this').siblings().removeClass('this');
 		var index = $tabList.index(this);
-		$tab.find('>div').eq(index).show().siblings().hide();
+		$tab.find('.market-x').eq(index).show().siblings().hide();
 	})
-	$tabList.click(function() {
-			$(this).addClass('this').siblings().removeClass('this');
-			var index = $tabList.index(this);
-			$tab.find('>div').eq(index).show().siblings().hide();
-			return false;
-		})
+	//招商加盟
+	 $('#join').click(function(){
+		 var scroll_offset = $("#joinx").offset();
+		   $("body,html").animate({ scrollTop:scroll_offset.top },500);
+         return false;
+    });
 		//返回顶部
 	$top = $('#top');
 	$top.click(function() {

@@ -18,7 +18,7 @@
 				</div>
 				<div class="nav" id="nav">
 					<ul>
-						<li class="this">
+						<li>
 							<a href="index.asp" class="a-f">首页</a>
 						</li>
 						<li>

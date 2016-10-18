@@ -1,6 +1,6 @@
 <!--#include file="header.asp"-->
 <div class="w-100">
-	<div class="banner" style="background-image: url(images/banner3_01.jpg);height: 580px;"></div>
+	<div class="banner" style="background-image: url(images/banner3_01.jpg);height: 360px;"></div>
 </div>
 
 <div class="w-1000 pc-70">
@@ -10,7 +10,7 @@
 		<p>看看别人的故事<br />
 给自己一个安心的理由
 		</p>
-		<a href="case.asp"><</a>
+		<a href="case-x.asp"><</a>
 	</div>
 	<div class="w-1000 pt-70">
 		<div class="case-l">
@@ -67,39 +67,35 @@
 				</div>
 			</div>
 			<div class="case-r-top">
-				<h1><span>点击排名</span></h1>
+				<h1><span>最近更新</span></h1>
 			</div>
 			<div class="case-r-bottom">
-				<div class="case-r-n">
+				<div class="case-r-n1">
 					<img src="" alt="" />
 					<div>
-						<a href="">换锁-让家里更安全</a>
-						<span><i class="iconfont">&#xe600;</i>21</span>
-			    	    <span><i class="iconfont">&#xe601;</i>210</span>
+						<a href="">换锁-让家里更安全换锁-让家里更安全换锁-让家里更安全</a>
+						
 					</div>
 				</div>
-				<div class="case-r-n">
+				<div class="case-r-n1">
 					<img src="" alt="" />
 					<div>
 						<a href="">换锁-让家里更安全</a>
-						<span><i class="iconfont">&#xe600;</i>21</span>
-			    	    <span><i class="iconfont">&#xe601;</i>210</span>
+						
 					</div>
 				</div>
-				<div class="case-r-n">
+				<div class="case-r-n1">
 					<img src="" alt="" />
 					<div>
 						<a href="">换锁-让家里更安全</a>
-						<span><i class="iconfont">&#xe600;</i>21</span>
-			    	    <span><i class="iconfont">&#xe601;</i>210</span>
+						
 					</div>
 				</div>
-				<div class="case-r-n">
+				<div class="case-r-n1">
 					<img src="" alt="" />
 					<div>
 						<a href="">换锁-让家里更安全</a>
-						<span><i class="iconfont">&#xe600;</i>21</span>
-			    	    <span><i class="iconfont">&#xe601;</i>210</span>
+						
 					</div>
 				</div>
 			</div>
@@ -115,13 +111,11 @@
 		<form action="" class="pt-70">
 			<div class="f1">
 				<input type="text" name="" class="inp1" value="" placeholder="您所在的城市" required="required" />
-				<input type="tel" name="" class="inp2" value="" placeholder="您的手机号码" required="required" pattern="(\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$" />
+				<input type="tel" name="" class="inp2" value="" placeholder="您的地址" required="required"/>
 			</div>
 			<div class="f1 mt-40">
 				<input type="text" name="" class="inp1" value="" placeholder="您的称呼" required="required" />
-				<input type="text" name="" class="inp3" value="" placeholder="请输入验证码" required="required" />
-				<a href="" class="ver" type="submit">获取验证码</a>
-
+				<input type="text" name="" class="inp2" value="" placeholder="您的手机号码" required="required"  pattern="((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$) " />
 			</div>
 			<div class="btn">
 				<button type="submit">我要领取</button>
@@ -131,3 +125,11 @@
 	</div>
 
 	<!--#include file="footer.asp"-->
+		<script type="text/javascript">
+	function curNav(num) {
+		var nav = $('#nav ul li');
+		nav.eq(num).addClass('this');
+	}
+	curNav(2);
+</script>
+	

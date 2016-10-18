@@ -1,6 +1,6 @@
 <!--#include file="header.asp"-->
 <div class="w-100">
-	<div class="banner" style="background-image: url(images/banner3_01.jpg);height: 580px;"></div>
+	<div class="banner" style="background-image: url(images/banner3_01.jpg);height: 360px;"></div>
 </div>
 
 <div class="w-1000 pc-70">
@@ -100,7 +100,7 @@
 		
 		<div class="paging">
 			<a href="" class="paging1">上页</a>
-			<a href="" class="paging2">1</a>
+			<a href="" class="paging2 this">1</a>
 			<a href="" class="paging2">2</a>
 			<a href="" class="paging2">3</a>
 			<a href="" class="paging2">4</a>
@@ -117,13 +117,11 @@
 		<form action="" class="pt-70">
 			<div class="f1">
 				<input type="text" name="" class="inp1" value="" placeholder="您所在的城市" required="required" />
-				<input type="tel" name="" class="inp2" value="" placeholder="您的手机号码" required="required" pattern="(\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$" />
+				<input type="tel" name="" class="inp2" value="" placeholder="您的地址" required="required"/>
 			</div>
 			<div class="f1 mt-40">
 				<input type="text" name="" class="inp1" value="" placeholder="您的称呼" required="required" />
-				<input type="text" name="" class="inp3" value="" placeholder="请输入验证码" required="required" />
-				<a href="" class="ver" type="submit">获取验证码</a>
-
+				<input type="text" name="" class="inp2" value="" placeholder="您的手机号码" required="required"  pattern="((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$) " />
 			</div>
 			<div class="btn">
 				<button type="submit">我要领取</button>
@@ -133,3 +131,11 @@
 	</div>
 
 	<!--#include file="footer.asp"-->
+		<script type="text/javascript">
+	function curNav(num) {
+		var nav = $('#nav ul li');
+		nav.eq(num).addClass('this');
+	}
+	curNav(2);
+</script>
+	

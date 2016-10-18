@@ -23,7 +23,7 @@
 				</p>
 			</div>
 
-			<div class="phone">
+			<div class="phone pt-15">
 				<span>24小时服务热线</span>
 				<p>40000-10000</p>
 			</div>
@@ -40,12 +40,12 @@
 		<i class="iconfont">&#xe602;</i>
 		<div>
 			<span>热线电话</span>
-			<p>4000-1000</p>
+			<p>40000-10000</p>
 		</div>
 	</div>
 	<div class="right-c">
 		<i class="iconfont">&#xe603;</i>
-		<div><img src="images/code-r_03.jpg" alt="" /></div>
+		<div><img src="images/code_23.jpg" alt="" /></div>
 	</div>
 	<div class="right-t" id="top">
 		<i class="iconfont">&#xe604;</i>
