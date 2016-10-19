@@ -76,7 +76,7 @@
 				<div class="slider-x">
 					<p>防火 / 防盗 / 居家安全监测服务</p>
 					<form action="">
-						<input type="tel" name="" id="" value="" class="place" placeholder="请输入手机号码" required="required" pattern="((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$) " />
+						<input type="tel" name="" id="" value="" class="place" placeholder="请输入手机号码" maxlength="11" required="required" pattern="((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$)" />
 						<button type="submit">立即预约</button>
 					</form>
 				</div>
@@ -211,7 +211,7 @@
 							</div>
 							<span>公安部消防局统计</span>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>
@@ -378,20 +378,7 @@
 		<div class="submit pt-70">
 			<div class="w-1000">
 				<h1>10秒登记，免费获得猫眼防盗器有效解决防盗问题</h1>
-				<form action="" class="pt-70">
-					<div class="f1">
-						<input type="text" name="" class="inp1" value="" placeholder="您所在的城市" required="required" />
-						<input type="tel" name="" class="inp2" value="" placeholder="您的地址" required="required" />
-					</div>
-					<div class="f1 mt-40">
-						<input type="text" name="" class="inp1" value="" placeholder="您的称呼" required="required" />
-						<input type="text" name="" class="inp2" value="" placeholder="您的手机号码" required="required" pattern="((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$) " />
-					</div>
-					<div class="btn">
-						<button type="submit">我要领取</button>
-					</div>
-
-				</form>
+				<!--#include file="form.asp"-->
 			</div>
 			<div class="bottom-i">
 				<div class="w-1000 pc-20">
@@ -399,19 +386,19 @@
 					<div class="nav-bot">
 						<ul>
 							<li>
-								<a href="">了解我们</a>
+								<a href="about.asp">了解我们</a>
 							</li>
 							<li>
-								<a href="">产品展示</a>
+								<a href="service.asp">服务故事</a>
 							</li>
 							<li>
-								<a href="">服务案例</a>
+								<a href="product.asp">产品展示</a>
 							</li>
 							<li>
-								<a href="">加入我们</a>
+								<a href="case.asp">案例展示</a>
 							</li>
 							<li>
-								<a href="">常见问题</a>
+								<a href="join.asp">招商加盟</a>
 							</li>
 						</ul>
 						<p>陕西居安之家锁业有限公司 2015-2018版权所有 <br /> 网站备案：京ICP备15019436号-2
@@ -452,5 +439,22 @@
 	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 	<script src="js/slider.js"></script>
 	<script src="js/script.js"></script>
-
+    <script type="text/javascript">
+    	//banner
+	var bannerSlider = new Slider($('#banner_tabs'), {
+		time: 5000,
+		delay: 400,
+		event: 'hover',
+		auto: true,
+		mode: 'fade',
+		controller: $('#bannerCtrl'),
+		activeControllerCls: 'active'
+	});
+	$('#banner_tabs .flex-prev').click(function() {
+		bannerSlider.prev()
+	});
+	$('#banner_tabs .flex-next').click(function() {
+		bannerSlider.next()
+	});
+    </script>
 </html>

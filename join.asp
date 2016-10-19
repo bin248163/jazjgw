@@ -38,9 +38,7 @@
 				<i><img src="images/w3_04.jpg" alt="" /></i>
 				<h2>高品质、低价位<br />
 包运费，互惠共赢好赚钱</h2>
-				<p>厂价直销，给加盟商发货承担运费；<br /> 定位于打造一个“为消费者提供高品质安全产品，
-					<br /> 让锁匠拥有一站式采购，
-					<br /> 为加盟商提供更容易赚钱”的安全服务平台。
+				<p>厂价直销，给加盟商发货承担运费；<br /> 定位于打造一个“为消费者提供高品质安全产品， 让锁匠拥有一站式采购， 为加盟商提供更容易赚钱”的安全服务平台。
 				</p>
 			</div>
 
@@ -79,9 +77,32 @@
 		<h1>加盟政策</h1>
 		<h2>policy</h2>
 	</div>
-	<div class="policy">
 
+	<div class="policy">
+		<div class="w-1000">
+			<div class="pol">
+				<img src="images/k1.png" alt="" />
+				<h2>业务支撑</h2>
+				<p class="p1">店面管理及促销策略，</p>
+				<p class="p2">店面装修方案提供，宣传物料支持；</p>
+				<p class="p3">锁匠加盟进货2万元，赠送100个业务订单；</p>
+			</div>
+			<div class="pol">
+				<img src="images/k2.png" alt="" />
+				<h2>宣传支持</h2>
+				<p class="p1">卖店和旗舰店，</p>
+				<p class="p2">进货20万以上，赠送同等价值的广告支持</p>
+			</div>
+			<div class="pol">
+				<img src="images/k3.png" alt="" />
+				<h2>服务支持</h2>
+				<p class="p1">免费开换锁技术升级培训服务；</p>
+				<p class="p2">免费提供市场营销技巧培训服务；</p>
+				<p class="p3">销售结算一对一实时服务；</p>
+			</div>
+		</div>
 	</div>
+
 </div>
 
 <div class="w-100 pc-70">
@@ -122,90 +143,141 @@
 		<h2>range</h2>
 	</div>
 	<div class="w-1000 pc-70">
-		<div class="n-100">
-			<div class="deve mr-20">
-				<img src="images/xz1_16.jpg" alt="" />
-				<div>
-					<i><img src="images/bj.png" alt="" /></i>
-					<p>30余名</p>
-				</div>
-			</div>
-			<div class="deve mr-20">
-				<img src="images/xz2_16.jpg" alt="" />
-				<div>
-					<i><img src="images/sh.png" alt="" /></i>
-					<p>30余名</p>
-				</div>
-			</div>
-			<div class="deve mr-20">
-				<img src="images/xz3_16.jpg" alt="" />
-				<div>
-					<i><img src="images/xa.png" alt="" /></i>
-					<p>30余名</p>
-				</div>
-			</div>
-			<div class="deve">
-				<img src="images/xz4_16.jpg" alt="" />
-				<div>
-					<i><img src="images/zz.png" alt="" /></i>
-					<p>30余名</p>
-				</div>
-			</div>
+		<div class="deve-more gd_next">
+			<span>换一批看看</span>
 		</div>
-		<div class="n-100">
-			<div class="deve mr-20">
-				<img src="images/xz5_16.jpg" alt="" />
-				<div>
-					<i><img src="images/ty.png" alt="" /></i>
-					<p>30余名</p>
+		<div class="gd">
+			<div class="gd_main">
+				
+				<div class="gd_main-div">
+					<div class="n-100">
+						<div class="deve mr-20">
+							<img src="images/xz1_16.jpg" alt="" />
+							<div>
+								<i><img src="images/bj.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+						<div class="deve mr-20">
+							<img src="images/xz2_16.jpg" alt="" />
+							<div>
+								<i><img src="images/sh.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+						<div class="deve mr-20">
+							<img src="images/xz3_16.jpg" alt="" />
+							<div>
+								<i><img src="images/xa.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+						<div class="deve">
+							<img src="images/xz4_16.jpg" alt="" />
+							<div>
+								<i><img src="images/zz.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+					</div>
+					<div class="n-100">
+						<div class="deve mr-20">
+							<img src="images/xz5_16.jpg" alt="" />
+							<div>
+								<i><img src="images/ty.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+						<div class="deve mr-20">
+							<img src="images/xz6_16.jpg" alt="" />
+							<div>
+								<i><img src="images/jn.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+						<div class="deve mr-20">
+							<img src="images/xz7_16.jpg" alt="" />
+							<div>
+								<i><img src="images/hf.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+					</div>
+
 				</div>
-			</div>
-			<div class="deve mr-20">
-				<img src="images/xz6_16.jpg" alt="" />
-				<div>
-					<i><img src="images/jn.png" alt="" /></i>
-					<p>30余名</p>
+				<div class="gd_main-div">
+					<div class="n-100">
+						<div class="deve mr-20">
+							<img src="images/xz1_16.jpg" alt="" />
+							<div>
+								<i><img src="images/bj.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+						<div class="deve mr-20">
+							<img src="images/xz2_16.jpg" alt="" />
+							<div>
+								<i><img src="images/sh.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+						<div class="deve mr-20">
+							<img src="images/xz3_16.jpg" alt="" />
+							<div>
+								<i><img src="images/xa.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+						<div class="deve">
+							<img src="images/xz4_16.jpg" alt="" />
+							<div>
+								<i><img src="images/zz.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+					</div>
+					<div class="n-100">
+						<div class="deve mr-20">
+							<img src="images/xz5_16.jpg" alt="" />
+							<div>
+								<i><img src="images/ty.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+						<div class="deve mr-20">
+							<img src="images/xz6_16.jpg" alt="" />
+							<div>
+								<i><img src="images/jn.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+						<div class="deve mr-20">
+							<img src="images/xz7_16.jpg" alt="" />
+							<div>
+								<i><img src="images/hf.png" alt="" /></i>
+								<p>30余名</p>
+							</div>
+						</div>
+					</div>
+
 				</div>
-			</div>
-			<div class="deve mr-20">
-				<img src="images/xz7_16.jpg" alt="" />
-				<div>
-					<i><img src="images/hf.png" alt="" /></i>
-					<p>30余名</p>
-				</div>
-			</div>
-			<div class="deve-more">
-				<a href="">换一批看看</a>
 			</div>
 		</div>
 	</div>
+
 </div>
 <div class="development"></div>
 <div class="submit-n pt-70" id="joinx">
 	<div class="w-1000">
 		<h1>如果您想加盟居安之家，请留下您的联系方式</h1>
-		<form action="" class="pt-70">
-			<div class="f1">
-				<input type="text" name="" class="inp1" value="" placeholder="您所在的城市" required="required" />
-				<input type="tel" name="" class="inp2" value="" placeholder="您的地址" required="required"/>
-			</div>
-			<div class="f1 mt-40">
-				<input type="text" name="" class="inp1" value="" placeholder="您的称呼" required="required" />
-				<input type="text" name="" class="inp2" value="" placeholder="您的手机号码" required="required"  pattern="((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$) " />
-			</div>
-			<div class="btn">
-				<button type="submit">我要领取</button>
-			</div>
-
-		</form>
+		<!--#include file="form.asp"-->
 	</div>
 
 	<!--#include file="footer.asp"-->
-		<script type="text/javascript">
-	function curNav(num) {
-		var nav = $('#nav ul li');
-		nav.eq(num).addClass('this');
-	}
-	curNav(4);
-</script>
-	
+	<script type="text/javascript">
+		function curNav(num) {
+			var nav = $('#nav ul li');
+			nav.eq(num).addClass('this');
+		}
+		curNav(4);
+	</script>

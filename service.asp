@@ -3,8 +3,8 @@
 	<div class="banner" style="background-image: url(images/banner2_01.jpg);height: 669px;"></div>
 </div>
 <div class="w-1000 pc-60">
-	<div class="w-1000">
-		<div class="n-ser mr-49">
+	<div class="w-1000" id="ysList">
+		<div class="n-ser mr-49 this">
 			<i class="i1"></i>
 			<div>
 				<span>01</span>
@@ -35,29 +35,75 @@
 	</div>
 
 </div>
-<div class="w-1000">
-	<div class="min">
-		<div class="min1">
-			<h1>1分钟响应</h1>
-			<p>50人专业客服团队，<br /> 智能化接线平台；
-				<br /> 根据您的业务需求，
-				<br /> 最短时间做出服务响应；
-			</p>
+<div class="w-1000" style="overflow: hidden;">
+	
+	<div class="min-w" id="ys">
+		<div class="min">
+			<div class="min1">
+				<h1>1分钟响应</h1>
+				<p>50人专业客服团队，<br /> 智能化接线平台；
+					<br /> 根据您的业务需求，
+					<br /> 最短时间做出服务响应；
+				</p>
+			</div>
+			<div class="min1">
+				<h1>15分钟上门</h1>
+				<p>全城服务网点划片区管理，<br /> APP智能派单；
+					<br /> 每个城市，
+					<br /> 100余名认证开锁师傅就近服务，
+					<br /> 最快速度解决您的燃眉之急；
+				</p>
+			</div>
+			<div class="min2">
+				<h1>24小时全天候服务</h1>
+				<p>开锁换锁属于救急服务，<br /> 居安之家为了服务体验；
+					<br /> 在同行中率先承诺，
+					<br /> 并做到365天7×24小时全天候服务；
+				</p>
+			</div>
 		</div>
-		<div class="min1">
-			<h1>15分钟上门</h1>
-			<p>全城服务网点划片区管理，<br /> APP智能派单；
-				<br /> 每个城市，
-				<br /> 100余名认证开锁师傅就近服务，
-				<br /> 最快速度解决您的燃眉之急；
-			</p>
+		<div class="min">
+			<div class="min1">
+				<h1>身份有备案</h1>
+				<p>安全卫士多从退伍军人中选拔，<br />身份信息均在公安局联网备案。
+				</p>
+			</div>
+			<div class="min1">
+				<h1>操作有规范</h1>
+				<p>安全卫士经过专业培训，<br />持证上岗，<br />每个服务环节严守操作规程。
+				</p>
+			</div>
+			<div class="min2">
+				<h1>服务有监督</h1>
+				<p>客户评价、APP监控、<br />客服回访三个监督环节，<br />确保服务品质。
+				</p>
+			</div>
 		</div>
-		<div class="min2">
-			<h1>24小时全天候服务</h1>
-			<p>开锁换锁属于救急服务，<br /> 居安之家为了服务体验；
-				<br /> 在同行中率先承诺，
-				<br /> 并做到365天7×24小时全天候服务；
-			</p>
+		<div class="min">
+			<div class="min1">
+				<h1>统一服务规范</h1>
+				<p>首家倡导统一的行业服务标准规范，<br />确保每一位用户的消费体验。
+				</p>
+			</div>
+			<div class="min1">
+				<h1>统一收费价格</h1>
+				<p>推行全国统一、<br />公开透明的服务收费标准，<br />让用户放心透明消费。
+				</p>
+			</div>
+			
+		</div>
+		<div class="min">
+			<div class="min1">
+				<h1>5年超长质保</h1>
+				<p>安防产品提供5年免费<br />超长质保服务，<br />行业史无前例。
+				</p>
+			</div>
+			<div class="min1">
+				<h1>售后有保障</h1>
+				<p>中国首家服务网点遍布全国，<br />服务有保障，<br />锁芯因质量问题免费换新。
+				</p>
+			</div>
+			
 		</div>
 	</div>
 </div>
@@ -167,28 +213,14 @@
 <div class="submit-n pt-70">
 	<div class="w-1000">
 		<h1>10秒登记，免费获得猫眼防盗器有效解决防盗问题</h1>
-		<form action="" class="pt-70">
-			<div class="f1">
-				<input type="text" name="" class="inp1" value="" placeholder="您所在的城市" required="required" />
-				<input type="tel" name="" class="inp2" value="" placeholder="您的地址" required="required"/>
-			</div>
-			<div class="f1 mt-40">
-				<input type="text" name="" class="inp1" value="" placeholder="您的称呼" required="required" />
-				<input type="text" name="" class="inp2" value="" placeholder="您的手机号码" required="required"  pattern="((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$) " />
-			</div>
-			<div class="btn">
-				<button type="submit">我要领取</button>
-			</div>
-
-		</form>
+		<!--#include file="form.asp"-->
 	</div>
-	
 
-<!--#include file="footer.asp"-->
+	<!--#include file="footer.asp"-->
 	<script type="text/javascript">
-	function curNav(num) {
-		var nav = $('#nav ul li');
-		nav.eq(num).addClass('this');
-	}
-	curNav(1);
-</script>
+		function curNav(num) {
+			var nav = $('#nav ul li');
+			nav.eq(num).addClass('this');
+		}
+		curNav(1);
+	</script>

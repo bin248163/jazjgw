@@ -20,6 +20,7 @@ $tab-left-bj:#d5d5d5;//首页tab左侧背景颜色
 //单行超出隐藏
 @mixin overflow{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
 //css3三角形 lavue值为三角形的高 value1值为三角形高跟斜边一半的比值越大三角形越高
+@mixin triangle-top($value:5px,$value1:1,$value2:#fff){border-bottom: $value solid $value2;width: 0;height: 0;border-left: $value/$value1 solid transparent;border-right: $value/$value1 solid transparent;z-index: 0;}
 @mixin triangle-down($value:5px,$value1:1,$value2:#fff){border-top: $value solid $value2;width: 0;height: 0;border-left: $value/$value1 solid transparent;border-right: $value/$value1 solid transparent;z-index: 0;}
 @mixin triangle-right($value:3px,$value1:1,$value2:#fff) {border-left: $value solid $value2;width: 0;height: 0;border-top: $value/$value1 solid transparent;border-bottom: $value/$value1 solid transparent;z-index: 0;}
 //英文大写
@@ -31,7 +32,15 @@ background-image: -webkit-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,
 transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25deg);-webkit-transform: skewx(-25deg);}
 @mixin beforeh{left:100%;@include hover(1s);}
 
-
+#content{ width:500px; height:170px; margin:100px auto;}
+#imgbox-loading {position: absolute;top: 0;left: 0; cursor: pointer;display: none;z-index: 90;}
+#imgbox-loading div {background: #FFF;width: 100%;height : 100%;}
+#imgbox-overlay {position: absolute;top: 0; left: 0;width: 100%;height: 100%;background: #000;display: none;z-index: 80;}
+.imgbox-wrap {position: absolute;top: 0;left: 0;background: #FFF;display: none; z-index: 90;}
+.imgbox-img {padding: 0;margin: 0;border: none;width: 100%; height: 100%;vertical-align: top;}
+.imgbox-title { padding-top: 10px;font-size: 11px;text-align: center;font-family: Arial;color: #333;display: none;}
+.imgbox-bg-wrap {position: absolute;padding: 0;margin: 0;display: none;}
+.imgbox-bg {position: absolute;width: 20px; height: 20px;}
 //部分全局样式
 a{text-decoration:none;color:#1d2024;
     &:hover{color: $color;}
@@ -245,7 +254,7 @@ a{text-decoration:none;color:#1d2024;
         .f1{overflow: hidden;height: 41px;}
     }
 }
-.submit-n{width: 100%;min-width: $width;overflow: hidden;
+.submit-n{width: 100%;min-width: $width;overflow: hidden;border-top: 1px solid #f5f7fa;background: #f3f3f3;
     h1{font-size: 36px;text-align: center;color: $color;line-height: 36px;}
     form{width: 800px;margin: 0 auto;
         .f1{overflow: hidden;height: 41px;}
@@ -334,7 +343,7 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
 }
 //内页样式
 .banner{min-width: $width;background-repeat: no-repeat; background-position: center;position: relative;}
-.n-ser{width: 256px;float: left;height: 116px;border: 1px solid #e6e9ed;@include hover;
+.n-ser{width: 256px;float: left;height: 116px;border: 1px solid #e6e9ed;@include hover;position: relative;
     i{width: 80px;background-repeat:no-repeat ;background-image: url(../images/ico3.png);height: 80px;float: left;margin-left: 20px;margin-top: 18px;}
     div{float: left;margin-left: 20px;}
     span{font-size: 20px;display: block;padding-top: 25px;@include hover;}
@@ -350,16 +359,29 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
         .i2{background-position: -80px -80px;}
         .i3{background-position: -80px -160px;}
         .i4{background-position: -80px -240px;}
+        &:before{content: "";position: absolute;bottom: -62px;left: 50%;margin-left: -12px;@include triangle-top(12px,1,$color)}
     }
+    &.this{
+        background: $color;
+        span{color: #fff;}
+        p{color: #fff;}
+        .i1{background-position: -80px 0;}
+        .i2{background-position: -80px -80px;}
+        .i3{background-position: -80px -160px;}
+        .i4{background-position: -80px -240px;}
+        &:before{content: "";position: absolute;bottom: -62px;left: 50%;margin-left: -12px;@include triangle-top(12px,1,$color)}
+    }
+    
 }
-.min{width: 100%;overflow: hidden;border-top: 2px solid $color;
-    .min1{@include hover;height:280px;width: calc(33.333% - 4px);float: left;border-bottom:2px solid #ccd1d9;border-left:2px solid #fff;border-right:2px solid #ccd1d9;padding: 70px 0;text-align: center;
+.min-w{width: 5000px;border-top: 2px solid $color;overflow: hidden;}
+.min{width: $width;overflow: hidden;float: left;
+    .min1{@include hover;height:250px;width: calc(33.333% - 4px);float: left;border-left:2px solid #fff;border-bottom:2px solid #fff;border-right:2px solid #fff;padding: 70px 0;text-align: center;
         &:hover{border-left:2px solid $color;border-right:2px solid $color;border-bottom:2px solid $color;
             h1{color: $color;}
             p{color: $color;}
         }
     }
-    .min2{@include hover;height:280px;width: calc(33.333% - 4px);float: left;border-bottom:2px solid #ccd1d9;border-left:2px solid #fff;border-right:2px solid #fff;padding: 70px 0;text-align: center;
+    .min2{@include hover;height:250px;width: calc(33.333% - 4px);float: left;border-bottom:2px solid #fff;border-left:2px solid #fff;border-right:2px solid #fff;padding: 70px 0;text-align: center;
         &:hover{border-left:2px solid $color;border-right:2px solid $color;border-bottom:2px solid $color;
             h1{color: $color;}
             p{color: $color;}
@@ -449,6 +471,8 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
         .view-a{opacity: 1;filter: alpha(opacity=100);}
     }
 }
+
+
 //服务故事
 .cases{background: url(../images/caseb_07.jpg) no-repeat center;min-width: $width;overflow: hidden;}
 //服务团队
@@ -469,13 +493,14 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
     img{height: 240px;}
     h2{font-size: 24px;font-weight: normal;padding-top: 25px;}   
     p{font-size: 14px;line-height: 24px;}
+    &:hover{
+        a,h2,i,span{color: $color;}
+    }
 }
 .n-cases-i{margin: 5px 0 10px;
     i{display: inline-block}
     span{color: #aab2bd;font-size: 14px;margin-right: 20px;}
-    &:hover{
-        i,span{color: $color;}
-    }
+    
 }
 //分页
 .paging{text-align: center;
@@ -581,7 +606,7 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
 
     }
 }
-.join-x{width: 260px;float: left;margin: 0 66px 20px;text-align: center;padding-bottom: 20px;@include hover;
+.join-x{width: 240px;float: left;margin: 0 66px 20px;text-align: center;padding-bottom: 20px;@include hover;padding: 0 10px 10px;
     i{width: 200px;margin: 0 auto ;}
     h2{font-size: 18px;line-height: 24px;padding: 15px 0 10px;@include hover;}
     p{font-size: 14px;color: #aab2bd;line-height: 20px;@include hover;}
@@ -590,7 +615,22 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
     }
 }
 //加盟政策
-.policy{min-width: $width;height: 670px;background: url(../images/po_07.jpg) no-repeat center bottom;}
+.policy{height: 670px;background: url(../images/po_07.png) no-repeat center bottom;min-width: $width;}
+.pol{float: left;width: 380px;position: relative;margin-top: 59px;color: #fff;font-style: italic;
+    img{width: 380px;@include hover;}
+    h2{font-size: 24px;padding-left: 44px;padding-bottom: 15px;padding-top: 30px;@include hover;}
+    p{font-size: 16px;}
+    .p1{padding-left: 41px;}
+    .p2{padding-left: 38px;}
+    .p3{padding-left: 35px;}
+    &:hover{
+        img{transform: scale(1.05,1.05);}
+        h2{padding-left: 50px;}
+    }
+   
+   
+   
+}
 //加盟对象
 .join-us{width: 50%;float: left;overflow: hidden;position: relative;
     i{margin: 0 40px 0 80px;float: left;}
@@ -618,10 +658,11 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
         div{background: #fff;}
     }
 }
-.deve-more{float: left;width: calc((100% - 60px)/4);margin-bottom: 20px;height: 160px;background: #e6e9ed;text-align: center;
-    a{line-height: 160px;font-size: 14px;
-       &:hover{color: $color;}
+.deve-more{float: left;width: calc((100% - 60px)/4);margin-bottom: 20px;height: 160px;background: #e6e9ed;text-align: center;cursor: pointer;position: absolute;bottom: 70px;right: 0;z-index: 99;
+    span{line-height: 160px;font-size: 14px;
+       
     }
+    &:hover{color: $color;}
 }
 .development{background: url(../images/ks_15.jpg) no-repeat center;height: 220px;min-width: $width;}
 //关于居安之家
@@ -665,7 +706,7 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
 .gd_prev{height: 70px; font-size: 40px;line-height: 70px;position: absolute;top: 50%;left: -60px;z-index: 9;font-family: "宋体";cursor: pointer;margin-top: -35px;
     &:hover{color: $color;}
 }
-.gd_next{height: 70px; font-size: 40px;line-height: 70px;position: absolute;top: 50%;right: -60px;z-index: 9;font-family: "宋体";cursor: pointer;margin-top: -35px;
+.gd_next1{height: 70px; font-size: 40px;line-height: 70px;position: absolute;top: 50%;right: -60px;z-index: 9;font-family: "宋体";cursor: pointer;margin-top: -35px;
     &:hover{color: $color;}
 }
 .gd_main{width:10000px;overflow:hidden;position:relative;z-index:1;

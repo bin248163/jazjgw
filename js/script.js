@@ -11,22 +11,7 @@ $(function() {
 		return false;
 	});
 
-	//banner
-	var bannerSlider = new Slider($('#banner_tabs'), {
-		time: 5000,
-		delay: 400,
-		event: 'hover',
-		auto: true,
-		mode: 'fade',
-		controller: $('#bannerCtrl'),
-		activeControllerCls: 'active'
-	});
-	$('#banner_tabs .flex-prev').click(function() {
-		bannerSlider.prev()
-	});
-	$('#banner_tabs .flex-next').click(function() {
-		bannerSlider.next()
-	});
+	
 	//首页视频
 	$('#videoA').click(function() {
 			$('#video').show();
@@ -46,15 +31,14 @@ $(function() {
 		 index = 0 ;
 		Swidth = 1180 ;
 		 timer = null ;
-		   len = $(".gd_title span a").length ; 
+		   len = $(".gd_main-div").length ; 
 		
 		function NextPage()
 		{	
-			if(index>2)
+			if(index>len-1)
 			{
 				index = 0 ;
 			}
-			$(".gd_title span a").removeClass("gd_title_a1").eq(index).addClass("gd_title_a1");
 			$(".gd_main").stop(true, false).animate({left: -index*Swidth+"px"},600)		
 		}
 		
@@ -62,9 +46,8 @@ $(function() {
 		{	
 			if(index<0)
 			{
-				index = 2 ;
+				index = len-1 ;
 			}
-			$(".gd_title span a").removeClass("gd_title_a1").eq(index).addClass("gd_title_a1");
 			$(".gd_main").stop(true, false).animate({left: -index*Swidth+"px"},600)		
 		}
 		
@@ -90,10 +73,10 @@ $(function() {
 				NextPage();
 			},4000);
 			
-		$(".gd_next, #gd_main , .gd_prev").mouseover(function(){
+		$(".gd_next, .gd , .gd_prev").mouseover(function(){
 			clearInterval(timer);
 		});
-		$(".gd_next, #gd_main , .gd_prev").mouseleave(function(){
+		$(".gd_next, .gd , .gd_prev").mouseleave(function(){
 			timer = setInterval(function(){
 				index++ ;
 				NextPage();
@@ -122,5 +105,14 @@ $(function() {
 			scrollTop: 0
 		}, 300);
 		return false;
-	});	
+	});
+	
+	//首页tab1
+	var $ysList = $('#ysList >div');
+	var $ys = $('#ys');
+	$ysList.hover(function() {
+		$(this).addClass('this').siblings().removeClass('this');
+		var index = $ysList.index(this);
+		$ys.find('.min').eq(index).show().siblings().hide();
+	})
 })
