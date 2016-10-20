@@ -17,23 +17,21 @@
 		<div class="n-100 pb-20">
 			<div class="view mr-20 content">
 				<div><img src="images/cf2_03.jpg" alt="" /></div>
-			
-
-				<div class="view-a"><i class="iconfont">&#xe605;</i></div>
+				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="view-a sp" target="_blank"><i class="iconfont">&#xe605;</i></a>
 				<p>王先生为居安之家代言</p>
 				<span>公园美岸业主</span>
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
 			</div>
 			<div class="view mr-20">
 				<div><img src="images/cf2_03.jpg" alt="" /></div>
-				<a href="" class="view-a"><i class="iconfont">&#xe605;</i></a>
+				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="view-a sp" target="_blank"><i class="iconfont">&#xe605;</i></a>
 				<p>王先生为居安之家代言</p>
 				<span>公园美岸业主</span>
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
 			</div>
 			<div class="view">
 				<div><img src="images/cf3_03.jpg" alt="" /></div>
-				<a href="" class="view-a"><i class="iconfont">&#xe605;</i></a>
+				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="view-a sp" target="_blank"><i class="iconfont">&#xe605;</i></a>
 				<p>王先生为居安之家代言</p>
 				<span>公园美岸业主</span>
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
@@ -43,21 +41,21 @@
 			<div class="view mr-20">
 				<div><img src="images/cf1_03.jpg" alt="" /></div>
 
-				<a href="" class="view-a"><i class="iconfont">&#xe605;</i></a>
+				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="view-a sp" target="_blank"><i class="iconfont">&#xe605;</i></a>
 				<p>王先生为居安之家代言</p>
 				<span>公园美岸业主</span>
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
 			</div>
 			<div class="view mr-20">
 				<div><img src="images/cf2_03.jpg" alt="" /></div>
-				<a href="" class="view-a"><i class="iconfont">&#xe605;</i></a>
+				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="view-a sp" target="_blank"><i class="iconfont">&#xe605;</i></a>
 				<p>王先生为居安之家代言</p>
 				<span>公园美岸业主</span>
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
 			</div>
 			<div class="view">
 				<div><img src="images/cf3_03.jpg" alt="" /></div>
-				<a href="" class="view-a"><i class="iconfont">&#xe605;</i></a>
+				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="view-a sp" target="_blank"><i class="iconfont">&#xe605;</i></a>
 				<p>王先生为居安之家代言</p>
 				<span>公园美岸业主</span>
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
@@ -73,7 +71,6 @@
 		</div>
 	</div>
 </div>
-
 
 <div class="submit-n pt-70">
 	<div class="w-1000">

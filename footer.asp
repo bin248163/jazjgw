@@ -52,10 +52,17 @@
 		<p>TOP</p>
 	</div>
 </div>
-
+<div class="video-w">
+				<div class="video">
+					<object data="" style="width: 100%;height: 100%;">
+					</object> 
+				</div>
+				<div class="x"></div>
+			</div>
 </body>
-<script src="js/jquery.min.js"></script>
+<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+
 
 <script src="js/script.js"></script>
-<script src="js/jquery.imgbox.pack.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>
 </html>

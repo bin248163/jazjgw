@@ -16,7 +16,7 @@
 	<div class="w-1000">
 		<div class="view mr-20">
 			<div><img src="images/cf1_03.jpg" alt="" /></div>
-			
+
 			<a href="" class="view-a"><i class="iconfont">&#xe605;</i></a>
 			<p>王先生为居安之家代言</p>
 			<span>公园美岸业主</span>
@@ -140,7 +140,7 @@
 	</div>
 
 	<div class="w-1000">
-		<div class="team-f" id="team">
+		<div class="team-f teamList">
 			<a href="" class="this">全部</a>
 			<a href="">视频</a>
 			<a href="">相册</a>
@@ -148,11 +148,39 @@
 		<div class="service-m">
 			<a href="team.asp">发现更多MORE</a>
 		</div>
-		<div class="w-1000 pb-340">
-			<div class="team-c mr-20"><a href=""><img src="images/team1_10.jpg" alt="" /></a></div>
-			<div class="team-c mr-20"><a href=""><img src="images/team2_10.jpg" alt="" /></a></div>
-			<div class="team-c mr-20"><a href=""><img src="images/team3_10.jpg" alt="" /></a></div>
-			<div class="team-c"><a href=""><img src="images/team4_10.jpg" alt="" /></a></div>
+		<div class="w-1000 pb-340" style="overflow: hidden;">
+			<div class="team-w team-con">
+				<div class="team-n">
+					<div class="team-c mr-20">
+						<a href=""><img src="images/team1_10.jpg" alt="" /></a>
+					</div>
+					<div class="team-c mr-20">
+						<a href=""><img src="images/team2_10.jpg" alt="" /></a>
+					</div>
+					<div class="team-c mr-20">
+						<a href=""><img src="images/team3_10.jpg" alt="" /></a>
+					</div>
+					<div class="team-c">
+						<a href=""><img src="images/team4_10.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="team-n">
+					<div class="team-c mr-20">
+						<a href=""><img src="images/team1_10.jpg" alt="" /></a>
+					</div>
+					<div class="team-c mr-20">
+						<a href=""><img src="images/team2_10.jpg" alt="" /></a>
+					</div>
+				</div>
+				<div class="team-n">
+					<div class="team-c mr-20">
+						<a href=""><img src="images/team3_10.jpg" alt="" /></a>
+					</div>
+					<div class="team-c">
+						<a href=""><img src="images/team4_10.jpg" alt="" /></a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -164,11 +192,10 @@
 	</div>
 
 	<!--#include file="footer.asp"-->
-		<script type="text/javascript">
-	function curNav(num) {
-		var nav = $('#nav ul li');
-		nav.eq(num).addClass('this');
-	}
-	curNav(2);
-</script>
-	
+	<script type="text/javascript">
+		function curNav(num) {
+			var nav = $('#nav ul li');
+			nav.eq(num).addClass('this');
+		}
+		curNav(2);
+	</script>

@@ -76,7 +76,7 @@
 				<div class="slider-x">
 					<p>防火 / 防盗 / 居家安全监测服务</p>
 					<form action="">
-						<input type="tel" name="" id="" value="" class="place" placeholder="请输入手机号码" maxlength="11" required="required" pattern="((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$)" />
+						<input type="tel" name="" id="" value="" class="place text1" maxlength="11" required="required" pattern="((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$)" />
 						<button type="submit">立即预约</button>
 					</form>
 				</div>
@@ -367,12 +367,13 @@
 			</div>
 		</div>
 		<div class="video-b">
-			<a href="" id="videoA"><i class="iconfont">&#xe605;</i></a>
-			<div class="video-w" id="video">
+			<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="videoA" target="_blank"><i class="iconfont">&#xe605;</i></a>
+			<div class="video-w">
 				<div class="video">
-					<iframe src="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" allowfullscreen="" frameborder="0" style="width: 100%;height: 100%;"></iframe>
+					<object data="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" style="width: 100%;height: 100%;display: block;"></object> 
+					
 				</div>
-				<div class="x">x</div>
+				<div class="x"></div>
 			</div>
 		</div>
 		<div class="submit pt-70">
@@ -436,25 +437,27 @@
 		</div>
 
 	</body>
-	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+
 	<script src="js/slider.js"></script>
 	<script src="js/script.js"></script>
-    <script type="text/javascript">
-    	//banner
-	var bannerSlider = new Slider($('#banner_tabs'), {
-		time: 5000,
-		delay: 400,
-		event: 'hover',
-		auto: true,
-		mode: 'fade',
-		controller: $('#bannerCtrl'),
-		activeControllerCls: 'active'
-	});
-	$('#banner_tabs .flex-prev').click(function() {
-		bannerSlider.prev()
-	});
-	$('#banner_tabs .flex-next').click(function() {
-		bannerSlider.next()
-	});
-    </script>
+	<script type="text/javascript">
+		//banner
+		var bannerSlider = new Slider($('#banner_tabs'), {
+			time: 5000,
+			delay: 400,
+			event: 'hover',
+			auto: true,
+			mode: 'fade',
+			controller: $('#bannerCtrl'),
+			activeControllerCls: 'active'
+		});
+		$('#banner_tabs .flex-prev').click(function() {
+			bannerSlider.prev()
+		});
+		$('#banner_tabs .flex-next').click(function() {
+			bannerSlider.next()
+		});
+	</script>
+
 </html>
