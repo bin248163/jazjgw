@@ -77,28 +77,43 @@
 		<h1>加盟政策</h1>
 		<h2>policy</h2>
 	</div>
-
-	<div class="policy">
-		<div class="w-1000">
+	<div class="policy-w">
+		<div class="w-1000 policy-con">
 			<div class="pol">
 				<img src="images/k1.png" alt="" />
-				<h2>业务支撑</h2>
-				<p class="p1">店面管理及促销策略，</p>
-				<p class="p2">店面装修方案提供，宣传物料支持；</p>
-				<p class="p3">锁匠加盟进货2万元，赠送100个业务订单；</p>
+				
 			</div>
 			<div class="pol">
 				<img src="images/k2.png" alt="" />
-				<h2>宣传支持</h2>
-				<p class="p1">卖店和旗舰店，</p>
-				<p class="p2">进货20万以上，赠送同等价值的广告支持</p>
+				
 			</div>
 			<div class="pol">
 				<img src="images/k3.png" alt="" />
-				<h2>服务支持</h2>
-				<p class="p1">免费开换锁技术升级培训服务；</p>
-				<p class="p2">免费提供市场营销技巧培训服务；</p>
-				<p class="p3">销售结算一对一实时服务；</p>
+				
+			</div>
+		</div>
+		<div class="policy">
+			<div class="w-1000 policy-list">
+				<div class="pol">
+					
+					<h2>业务支撑</h2>
+					<p class="p1">店面管理及促销策略，</p>
+					<p class="p2">店面装修方案提供，宣传物料支持；</p>
+					<p class="p3">锁匠加盟进货2万元，赠送100个业务订单；</p>
+				</div>
+				<div class="pol">
+					
+					<h2>宣传支持</h2>
+					<p class="p1">卖店和旗舰店，</p>
+					<p class="p2">进货20万以上，赠送同等价值的广告支持</p>
+				</div>
+				<div class="pol">
+					
+					<h2>服务支持</h2>
+					<p class="p1">免费开换锁技术升级培训服务；</p>
+					<p class="p2">免费提供市场营销技巧培训服务；</p>
+					<p class="p3">销售结算一对一实时服务；</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -148,7 +163,7 @@
 		</div>
 		<div class="gd">
 			<div class="gd_main">
-				
+
 				<div class="gd_main-div">
 					<div class="n-100">
 						<div class="deve mr-20">
@@ -267,7 +282,7 @@
 
 </div>
 <div class="development"></div>
-<div class="submit-n pt-70" id="joinx">
+<div class="submit-n1 pt-70" id="joinx">
 	<div class="w-1000">
 		<h1>如果您想加盟居安之家，请留下您的联系方式</h1>
 		<!--#include file="form.asp"-->

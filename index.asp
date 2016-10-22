@@ -258,11 +258,11 @@
 			</div>
 			<div class="w-1000">
 				<div class="service-m">
-					<a href="">发现更多MORE</a>
+					<a href="case-x.asp">发现更多MORE</a>
 				</div>
 				<div class="service">
 					<img src="images/s1_18.jpg" alt="" />
-					<div class="service-n">
+					<a href="case-xx.asp" class="service-n">
 						<div class="time-w">
 							<div class="time">
 								<span>07</span> 2016-08
@@ -282,13 +282,13 @@
 							<h2>居安之家，使家更安心</h2>
 							<p>换锁，让家里更安全换锁，让家 里更安全换锁，让家里更安全换 锁，让家里更安全换锁，让家里 更安全换锁.....
 							</p>
-							<a href="">more</a>
+							<span>more</span>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="service">
 					<img src="images/fw2_18.jpg" alt="" />
-					<div class="service-n">
+					<a href="case-xx.asp" class="service-n">
 						<div class="time-w">
 							<div class="time">
 								<span>07</span> 2016-08
@@ -308,13 +308,13 @@
 							<h2>居安之家，使家更安心</h2>
 							<p>换锁，让家里更安全换锁，让家 里更安全换锁，让家里更安全换 锁，让家里更安全换锁，让家里 更安全换锁.....
 							</p>
-							<a href="">more</a>
+							<span>more</span>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="service">
 					<img src="images/fw3_18.jpg" alt="" />
-					<div class="service-n">
+					<a href="case-xx.asp" class="service-n">
 						<div class="time-w">
 							<div class="time">
 								<span>07</span> 2016-08
@@ -334,13 +334,13 @@
 							<h2>居安之家，使家更安心</h2>
 							<p>换锁，让家里更安全换锁，让家 里更安全换锁，让家里更安全换 锁，让家里更安全换锁，让家里 更安全换锁.....
 							</p>
-							<a href="">more</a>
+							<span>more</span>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="service">
 					<img src="images/fw4_18.jpg" alt="" />
-					<div class="service-n">
+					<a href="case-xx.asp" class="service-n">
 						<div class="time-w">
 							<div class="time">
 								<span>07</span> 2016-08
@@ -360,9 +360,9 @@
 							<h2>居安之家，使家更安心</h2>
 							<p>换锁，让家里更安全换锁，让家 里更安全换锁，让家里更安全换 锁，让家里更安全换锁，让家里 更安全换锁.....
 							</p>
-							<a href="">more</a>
+							<span>more</span>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -370,7 +370,7 @@
 			<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="videoA" target="_blank"><i class="iconfont">&#xe605;</i></a>
 			<div class="video-w">
 				<div class="video">
-					<object data="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" style="width: 100%;height: 100%;display: block;"></object> 
+					<object data="" style="width: 100%;height: 100%;display: block;"></object> 
 					
 				</div>
 				<div class="x"></div>

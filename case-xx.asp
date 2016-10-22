@@ -57,14 +57,7 @@
 			    	    <span><i class="iconfont">&#xe601;</i>210</span>
 					</div>
 				</div>
-				<div class="case-r-n">
-					<img src="" alt="" />
-					<div>
-						<a href="">换锁-让家里更安全</a>
-						<span><i class="iconfont">&#xe600;</i>21</span>
-			    	    <span><i class="iconfont">&#xe601;</i>210</span>
-					</div>
-				</div>
+				
 			</div>
 			<div class="case-r-top">
 				<h1><span>最近更新</span></h1>
@@ -91,13 +84,7 @@
 						
 					</div>
 				</div>
-				<div class="case-r-n1">
-					<img src="" alt="" />
-					<div>
-						<a href="">换锁-让家里更安全</a>
-						
-					</div>
-				</div>
+				
 			</div>
 		</div>
 		
@@ -105,7 +92,7 @@
 </div>
 
 
-<div class="submit-n pt-70 nb1">
+<div class="submit-n pt-70">
 	<div class="w-1000">
 		<h1>10秒登记，免费获得猫眼防盗器有效解决防盗问题</h1>
 		<!--#include file="form.asp"-->

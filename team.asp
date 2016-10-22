@@ -87,17 +87,15 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="paging">
 			<a href="" class="paging1">上页</a>
-			<a href="" class="paging2 this">1</a>
+			<span class="paging2 this">1</span>
 			<a href="" class="paging2">2</a>
 			<a href="" class="paging2">3</a>
 			<a href="" class="paging2">4</a>
-			<a href="" class="paging1">上页</a>
+			<a href="" class="paging1">下页</a>
 		</div>
 	</div>
-
 </div>
 
 <div class="submit-n pt-70">

@@ -17,21 +17,21 @@
 		<div class="view mr-20">
 			<div><img src="images/cf1_03.jpg" alt="" /></div>
 
-			<a href="" class="view-a"><i class="iconfont">&#xe605;</i></a>
+			<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
 			<p>王先生为居安之家代言</p>
 			<span>公园美岸业主</span>
 			<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
 		</div>
 		<div class="view mr-20">
 			<div><img src="images/cf2_03.jpg" alt="" /></div>
-			<a href="" class="view-a"><i class="iconfont">&#xe605;</i></a>
+			<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
 			<p>王先生为居安之家代言</p>
 			<span>公园美岸业主</span>
 			<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
 		</div>
 		<div class="view">
 			<div><img src="images/cf3_03.jpg" alt="" /></div>
-			<a href="" class="view-a"><i class="iconfont">&#xe605;</i></a>
+			<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
 			<p>王先生为居安之家代言</p>
 			<span>公园美岸业主</span>
 			<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
@@ -56,8 +56,8 @@
 			<div class="gd_main">
 				<div class="gd_main-div">
 					<div class="gd-x mr-20">
-						<a href=""><img src="images/nc1_03.jpg" alt="" /></a>
-						<h2><a href="">居安之家，使家更安心</a></h2>
+						<a href="case-xx.asp"><img src="images/nc1_03.jpg" alt="" /></a>
+						<h2><a href="case-xx.asp">居安之家，使家更安心</a></h2>
 						<div class="n-cases-i">
 							<span><i class="iconfont">&#xe600;</i>21</span>
 							<span><i class="iconfont">&#xe601;</i>210</span>
@@ -67,8 +67,8 @@
 						</p>
 					</div>
 					<div class="gd-x">
-						<a href=""><img src="images/nc2_03.jpg" alt="" /></a>
-						<h2><a href="">居安之家，使家更安心</a></h2>
+						<a href="case-xx.asp"><img src="images/nc2_03.jpg" alt="" /></a>
+						<h2><a href="case-xx.asp">居安之家，使家更安心</a></h2>
 						<div class="n-cases-i">
 							<span><i class="iconfont">&#xe600;</i>21</span>
 							<span><i class="iconfont">&#xe601;</i>210</span>
@@ -81,8 +81,8 @@
 				</div>
 				<div class="gd_main-div">
 					<div class="gd-x mr-20">
-						<a href=""><img src="images/nc1_03.jpg" alt="" /></a>
-						<h2><a href="">居安之家，使家更安心</a></h2>
+						<a href="case-xx.asp"><img src="images/nc1_03.jpg" alt="" /></a>
+						<h2><a href="case-xx.asp">居安之家，使家更安心</a></h2>
 						<div class="n-cases-i">
 							<span><i class="iconfont">&#xe600;</i>21</span>
 							<span><i class="iconfont">&#xe601;</i>210</span>
@@ -92,8 +92,8 @@
 						</p>
 					</div>
 					<div class="gd-x">
-						<a href=""><img src="images/nc2_03.jpg" alt="" /></a>
-						<h2><a href="">居安之家，使家更安心</a></h2>
+						<a href="case-xx.asp"><img src="images/nc2_03.jpg" alt="" /></a>
+						<h2><a href="case-xx.asp">居安之家，使家更安心</a></h2>
 						<div class="n-cases-i">
 							<span><i class="iconfont">&#xe600;</i>21</span>
 							<span><i class="iconfont">&#xe601;</i>210</span>
@@ -106,8 +106,8 @@
 				</div>
 				<div class="gd_main-div">
 					<div class="gd-x mr-20">
-						<a href=""><img src="images/nc1_03.jpg" alt="" /></a>
-						<h2><a href="">居安之家，使家更安心</a></h2>
+						<a href="case-xx.asp"><img src="images/nc1_03.jpg" alt="" /></a>
+						<h2><a href="case-xx.asp">居安之家，使家更安心</a></h2>
 						<div class="n-cases-i">
 							<span><i class="iconfont">&#xe600;</i>21</span>
 							<span><i class="iconfont">&#xe601;</i>210</span>
@@ -117,8 +117,8 @@
 						</p>
 					</div>
 					<div class="gd-x">
-						<a href=""><img src="images/nc2_03.jpg" alt="" /></a>
-						<h2><a href="">居安之家，使家更安心</a></h2>
+						<a href="case-xx.asp"><img src="images/nc2_03.jpg" alt="" /></a>
+						<h2><a href="case-xx.asp">居安之家，使家更安心</a></h2>
 						<div class="n-cases-i">
 							<span><i class="iconfont">&#xe600;</i>21</span>
 							<span><i class="iconfont">&#xe601;</i>210</span>
@@ -152,32 +152,32 @@
 			<div class="team-w team-con">
 				<div class="team-n">
 					<div class="team-c mr-20">
-						<a href=""><img src="images/team1_10.jpg" alt="" /></a>
+						<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team1_10.jpg" alt="" /></a>
 					</div>
 					<div class="team-c mr-20">
-						<a href=""><img src="images/team2_10.jpg" alt="" /></a>
+						<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team2_10.jpg" alt="" /></a>
 					</div>
 					<div class="team-c mr-20">
-						<a href=""><img src="images/team3_10.jpg" alt="" /></a>
+						<a href="images/team4_10.jpg" data-lightbox="example-set"><img src="images/team3_10.jpg" alt="" /></a>
 					</div>
 					<div class="team-c">
-						<a href=""><img src="images/team4_10.jpg" alt="" /></a>
+						<a href="images/team4_10.jpg" data-lightbox="example-set"><img src="images/team4_10.jpg" alt="" /></a>
 					</div>
 				</div>
 				<div class="team-n">
 					<div class="team-c mr-20">
-						<a href=""><img src="images/team1_10.jpg" alt="" /></a>
+						<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team1_10.jpg" alt="" /></a>
 					</div>
 					<div class="team-c mr-20">
-						<a href=""><img src="images/team2_10.jpg" alt="" /></a>
+						<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team2_10.jpg" alt="" /></a>
 					</div>
 				</div>
 				<div class="team-n">
 					<div class="team-c mr-20">
-						<a href=""><img src="images/team3_10.jpg" alt="" /></a>
+						<a href="images/team4_10.jpg" data-lightbox="example-set"><img src="images/team3_10.jpg" alt="" /></a>
 					</div>
 					<div class="team-c">
-						<a href=""><img src="images/team4_10.jpg" alt="" /></a>
+						<a href="images/team4_10.jpg" data-lightbox="example-set"><img src="images/team4_10.jpg" alt="" /></a>
 					</div>
 				</div>
 			</div>

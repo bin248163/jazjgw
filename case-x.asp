@@ -100,18 +100,18 @@
 		
 		<div class="paging">
 			<a href="" class="paging1">上页</a>
-			<a href="" class="paging2 this">1</a>
+			<span class="paging2 this">1</span>
 			<a href="" class="paging2">2</a>
 			<a href="" class="paging2">3</a>
 			<a href="" class="paging2">4</a>
-			<a href="" class="paging1">上页</a>
+			<a href="" class="paging1">下页</a>
 		</div>
 		
 	</div>
 </div>
 
 
-<div class="submit-n pt-70 nb1">
+<div class="submit-n pt-70">
 	<div class="w-1000">
 		<h1>10秒登记，免费获得猫眼防盗器有效解决防盗问题</h1>
 		<!--#include file="form.asp"-->

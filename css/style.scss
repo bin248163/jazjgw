@@ -171,7 +171,7 @@ a{text-decoration:none;color:#1d2024;
 
 .service{float: left;width: 25%;height: 460px;padding-top: 20px;position: relative;cursor: pointer;
     &:before{position:absolute ;background: #000000;opacity: .5;filter: alpha(opacity=50);width: 100%;height: 160px;top: 20px;left: 0;content: "";}
-    .service-n{position: absolute;width: calc(100% - 70px);height: 100px;top: 0;left: 0;padding:80px 35px 0;overflow: hidden;@include hover;
+    .service-n{position: absolute;width: calc(100% - 70px);height: 100px;top: 0;left: 0;padding:80px 35px 0;overflow: hidden;@include hover;display: block;
         .time-w{overflow: hidden;
             .time{font-size: 14px;color: #fff;text-align: center;width: 50%;float: left;
             span{font-size: 54px;display: block;width: 100%;line-height: 54px;}
@@ -185,9 +185,7 @@ a{text-decoration:none;color:#1d2024;
         .main{padding-top: 70px;color: #fff;
             h2{font-size: 20px;font-weight: normal;}
             p{font-size: 16px;padding-top: 35px;}
-            a{float: right;color: #fff;
-               &:hover{text-decoration: underline;}
-            }
+            span{float: right;color: #fff;}
         }
     }
     &:hover{
@@ -240,22 +238,32 @@ a{text-decoration:none;color:#1d2024;
 .tab-con{width: $width - ($left + 15px);float: left;font-size: 0;letter-spacing:-3px;}
 
 //底部样式
-.submit{width: 100%;min-width: $width;overflow: hidden;background: url(../images/bot_22.jpg) no-repeat center bottom;
+.submit{width: 100%;min-width: $width;background: url(../images/bot_22.jpg) no-repeat center bottom;
     h1{font-size: 36px;text-align: center;color: $color;line-height: 36px;}
     form{width: 800px;margin: 0 auto;
-        .f1{overflow: hidden;height: 41px;}
+        .f1{height: 41px;}
     }
+    &:after{display: block;content: "";clear: both;}
 }
-.submit-n{width: 100%;min-width: $width;overflow: hidden;border-top: 1px solid #f5f7fa;background: #f3f3f3;
+.submit-n{width: 100%;min-width: $width;border-top: 1px solid #f5f7fa;background: #f3f3f3;
     h1{font-size: 36px;text-align: center;color: $color;line-height: 36px;}
     form{width: 800px;margin: 0 auto;
-        .f1{overflow: hidden;height: 41px;}
+        .f1{height: 41px;}
     }
+    &:after{display: block;content: "";clear: both;}
+}
+.submit-n1{width: 100%;min-width: $width;background: #fff;
+    h1{font-size: 36px;text-align: center;color: $color;line-height: 36px;}
+    form{width: 800px;margin: 0 auto;
+        .f1{height: 41px;}
+    }
+    &:after{display: block;content: "";clear: both;}
 }
 input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height: 40px;background: none;}
 .inp1{width: 256px;float: left;color: #666;}
 .inp2{width: 478px;margin-left: 66px;float: left;color: #666;}
 .inp3{width: 340px;margin-left: 66px;float: left;}
+textarea{border:none;border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;background: none;width: 478px;margin-left: 66px;float: left;color: #666;max-width: 478px;overflow-y:visible;height: 100%;}
 .ver{width: 118px;height: 28px;border: 1px solid $color;color: $color;text-align: center;line-height: 28px;font-size: 18px;background: #fff;float: right;margin-top: 11px;cursor: pointer;@include hover;display: block;
     &:hover{background: $color;color: #fff;}
 }
@@ -266,7 +274,7 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
 }
 .bottom{overflow: hidden;min-width: $width;background: url(../images/nb_06.jpg) no-repeat center top;
     .logo{width: 200px;float: left;margin-right: 40px;}
-    .nav-bot{float: left;border-left: 1px solid #232930;padding-left: 40px;
+    .nav-bot{float: left;border-left: 1px solid #232930;padding-left: 40px;margin-top: 10px;
         ul{overflow: hidden;
             li{float: left;margin-right: 30px;
                 a{color: #656d78;font-size: 16px;
@@ -285,7 +293,7 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
 }
 .bottom-i{overflow: hidden;min-width: $width;
     .logo{width: 200px;float: left;margin-right: 40px;}
-    .nav-bot{float: left;border-left: 1px solid #232930;padding-left: 40px;
+    .nav-bot{float: left;border-left: 1px solid #232930;padding-left: 40px;margin-top: 10px;
         ul{overflow: hidden;
             li{float: left;margin-right: 30px;
                 a{color: #656d78;font-size: 16px;
@@ -379,6 +387,7 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
             p{color: $color;}
         }
     }
+    .ml-196{margin-left: 196px;}
     h1{font-size: 30px;}
     p{font-size: 20px;padding-top: 70px;line-height: 40px;}
 }
@@ -461,6 +470,7 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
         .view-i{display: block}
         img{opacity: 1;filter: alpha(opacity=100);}
         .view-a{opacity: 1;filter: alpha(opacity=100);}
+        p{color: $color;}
     }
 }
 
@@ -498,7 +508,8 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
 }
 //分页
 .paging{text-align: center;
-    a{color: #aab2bd;font-size: 14px;border: 1px solid #aab2bd;display: inline-block;height: 28px;line-height: 28px;
+
+    span,a{color: #aab2bd;font-size: 14px;border: 1px solid #aab2bd;display: inline-block;height: 28px;line-height: 28px;
         &:hover{border: 1px solid $color;color: $color;}
         &.this{border: 1px solid $color;color: $color;}
     }
@@ -546,7 +557,7 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
             a{padding: 5px 0;display: inline-block;overflow: hidden;max-height: 50px;position: relative;line-height: 25px;display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
-                &:before{position: absolute;bottom: 0;right: 0;content: "...";background-image: linear-gradient(to right, rgba(255,255,255,.6),#fff 30%, #fff 100%); padding-left: 10px;padding-bottom: 5px;}
+                
             }
             i{display: inline-block;margin-right: 5px;display: none;}
             span{color: #656d78;font-size: 14px;margin-right: 20px;display: none;}
@@ -609,21 +620,22 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
     }
 }
 //加盟政策
-.policy{height: 670px;background: url(../images/po_07.png) no-repeat center bottom;min-width: $width;}
+.policy-w{min-width: $width;height: 670px;position: relative;}
+.policy{height: 670px;background: url(../images/po_07.png) no-repeat center bottom;min-width: $width;z-index: 1;position: absolute;left: 0;top: 0;width: 100%;}
 .pol{float: left;width: 380px;position: relative;margin-top: 59px;color: #fff;font-style: italic;
     img{width: 380px;@include hover;}
-    h2{font-size: 24px;padding-left: 44px;padding-bottom: 15px;padding-top: 30px;@include hover;}
+    h2{font-size: 24px;padding-left: 44px;padding-bottom: 15px;padding-top: 320px;@include hover;}
     p{font-size: 16px;}
     .p1{padding-left: 41px;}
     .p2{padding-left: 38px;}
     .p3{padding-left: 35px;}
     &:hover{
-        img{transform: scale(1.05,1.05);}
+       
         h2{padding-left: 50px;}
-    }
-   
-   
-   
+    }  
+}
+.qg{
+     img{transform: scale(1.05,1.05);}
 }
 //加盟对象
 .join-us{width: 50%;float: left;overflow: hidden;position: relative;
@@ -745,14 +757,6 @@ input{border-bottom: 1px solid #aab2bd;font-size: 20px;line-height: 35px;height:
 .flex-control-paging li a.flex-active,
 .flex-control-paging li.active a {background:$color;}
 
-//子页新闻列表页下方分页样式
-.paging{width: 100%;padding: 20px 0;text-align: center;line-height: 40px;
-    a{padding: 3px 10px;font-size: 13px; margin: 0 1px;}
-    .active{color: $color;background: #ddd;}
-}
-.paga{border:1px solid #d6d6d6;color: $color;@include hover;
-    &:hover{color: #fff;background: $color;}
-}
 //css3文字图标
 
 @font-face {font-family: "iconfont";
