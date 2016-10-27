@@ -165,22 +165,22 @@
 			<div class="gd_main">
 
 				<div class="gd_main-div">
-					<div class="n-100">
-						<div class="deve mr-20">
+					
+						<div class="deve">
 							<img src="images/xz1_16.jpg" alt="" />
 							<div>
 								<i><img src="images/bj.png" alt="" /></i>
 								<p>30余名</p>
 							</div>
 						</div>
-						<div class="deve mr-20">
+						<div class="deve">
 							<img src="images/xz2_16.jpg" alt="" />
 							<div>
 								<i><img src="images/sh.png" alt="" /></i>
 								<p>30余名</p>
 							</div>
 						</div>
-						<div class="deve mr-20">
+						<div class="deve">
 							<img src="images/xz3_16.jpg" alt="" />
 							<div>
 								<i><img src="images/xa.png" alt="" /></i>
@@ -194,49 +194,48 @@
 								<p>30余名</p>
 							</div>
 						</div>
-					</div>
-					<div class="n-100">
-						<div class="deve mr-20">
+					
+						<div class="deve">
 							<img src="images/xz5_16.jpg" alt="" />
 							<div>
 								<i><img src="images/ty.png" alt="" /></i>
 								<p>30余名</p>
 							</div>
 						</div>
-						<div class="deve mr-20">
+						<div class="deve">
 							<img src="images/xz6_16.jpg" alt="" />
 							<div>
 								<i><img src="images/jn.png" alt="" /></i>
 								<p>30余名</p>
 							</div>
 						</div>
-						<div class="deve mr-20">
+						<div class="deve">
 							<img src="images/xz7_16.jpg" alt="" />
 							<div>
 								<i><img src="images/hf.png" alt="" /></i>
 								<p>30余名</p>
 							</div>
 						</div>
-					</div>
+					
 
 				</div>
 				<div class="gd_main-div">
-					<div class="n-100">
-						<div class="deve mr-20">
+					
+						<div class="deve">
 							<img src="images/xz1_16.jpg" alt="" />
 							<div>
 								<i><img src="images/bj.png" alt="" /></i>
 								<p>30余名</p>
 							</div>
 						</div>
-						<div class="deve mr-20">
+						<div class="deve">
 							<img src="images/xz2_16.jpg" alt="" />
 							<div>
 								<i><img src="images/sh.png" alt="" /></i>
 								<p>30余名</p>
 							</div>
 						</div>
-						<div class="deve mr-20">
+						<div class="deve">
 							<img src="images/xz3_16.jpg" alt="" />
 							<div>
 								<i><img src="images/xa.png" alt="" /></i>
@@ -250,30 +249,29 @@
 								<p>30余名</p>
 							</div>
 						</div>
-					</div>
-					<div class="n-100">
-						<div class="deve mr-20">
+					
+						<div class="deve">
 							<img src="images/xz5_16.jpg" alt="" />
 							<div>
 								<i><img src="images/ty.png" alt="" /></i>
 								<p>30余名</p>
 							</div>
 						</div>
-						<div class="deve mr-20">
+						<div class="deve">
 							<img src="images/xz6_16.jpg" alt="" />
 							<div>
 								<i><img src="images/jn.png" alt="" /></i>
 								<p>30余名</p>
 							</div>
 						</div>
-						<div class="deve mr-20">
+						<div class="deve">
 							<img src="images/xz7_16.jpg" alt="" />
 							<div>
 								<i><img src="images/hf.png" alt="" /></i>
 								<p>30余名</p>
 							</div>
 						</div>
-					</div>
+					
 
 				</div>
 			</div>

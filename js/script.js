@@ -99,7 +99,7 @@ textarea.style.posHeight=textarea.scrollHeight;
 	})
 
 	var index = 0,
-	Swidth = 1180,
+	Swidth = 1200,
 	timer = null,
 	len = $(".gd_main-div").length;
 

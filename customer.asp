@@ -14,15 +14,16 @@
 	</div>
 
 	<div class="w-1000 pt-20">
-		<div class="n-100 pb-20">
-			<div class="view mr-20 content">
+		
+		<div class="ww">
+			<div class="view">
 				<div><img src="images/cf2_03.jpg" alt="" /></div>
 				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="view-a sp" target="_blank"><i class="iconfont">&#xe605;</i></a>
 				<p>王先生为居安之家代言</p>
 				<span>公园美岸业主</span>
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
 			</div>
-			<div class="view mr-20">
+			<div class="view">
 				<div><img src="images/cf2_03.jpg" alt="" /></div>
 				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="view-a sp" target="_blank"><i class="iconfont">&#xe605;</i></a>
 				<p>王先生为居安之家代言</p>
@@ -36,9 +37,8 @@
 				<span>公园美岸业主</span>
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
 			</div>
-		</div>
-		<div class="n-100 pb-20">
-			<div class="view mr-20">
+		
+			<div class="view">
 				<div><img src="images/cf1_03.jpg" alt="" /></div>
 
 				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="view-a sp" target="_blank"><i class="iconfont">&#xe605;</i></a>
@@ -46,7 +46,7 @@
 				<span>公园美岸业主</span>
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
 			</div>
-			<div class="view mr-20">
+			<div class="view">
 				<div><img src="images/cf2_03.jpg" alt="" /></div>
 				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="view-a sp" target="_blank"><i class="iconfont">&#xe605;</i></a>
 				<p>王先生为居安之家代言</p>
@@ -61,15 +61,17 @@
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
 			</div>
 		</div>
-		<div class="paging">
+		
+		
+	</div>
+	<div class="paging pc-20">
 			<a href="" class="paging1">上页</a>
-			<a href="" class="paging2 this">1</a>
+			<a href="javascript:;" class="paging2 this">1</a>
 			<a href="" class="paging2">2</a>
 			<a href="" class="paging2">3</a>
 			<a href="" class="paging2">4</a>
 			<a href="" class="paging1">下页</a>
 		</div>
-	</div>
 </div>
 
 <div class="submit-n pt-70">

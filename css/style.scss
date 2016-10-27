@@ -455,8 +455,8 @@ textarea{border:none;border-bottom: 1px solid #aab2bd;font-size: 20px;line-heigh
 }
 .process-bor{height: 2px;background: #aab2bd;min-width: $width;position: absolute;top: 458px;left: 0;width: 100%;}
 //客户采访
-.view{float: left;width:378px;border: 1px solid #e6e9ed;padding-bottom: 10px;position: relative;
-    div{background: #000;@include hover;
+.view{float: left;width:378px;border: 1px solid #e6e9ed;padding-bottom: 10px;position: relative;margin-bottom:20px;margin-right: 20px;
+    div{background: #000;@include hover;height: 238px;overflow: hidden;
         img{opacity: .3;filter: alpha(opacity=30);}
     }
     p{padding: 18px 18px 0;font-size: 18px;}
@@ -485,15 +485,16 @@ textarea{border:none;border-bottom: 1px solid #aab2bd;font-size: 20px;line-heigh
         &.this{background: $color;color: #fff;}
     }
 }
-.team-c{width:280px;float: left;}
+.team-c{width:280px;float: left;margin-bottom: 20px;height: 180px;overflow: hidden;margin-right: 20px;}
 .team-w{width: 10000px;}
-.team-n{width: $width;float: left;overflow: hidden;}
+.team-n{width: 1210px;float: left;overflow: hidden;}
 .pb-340{padding-bottom: 340px;}
 //服务故事列表
 .n-100{width: 100%;
     &:after{content: "";display: block;clear: both;}
 }
-.n-cases{width: calc((100% - 20px)/2);float: left;margin-bottom: 50px;
+.ww{overflow: hidden;width: 1210px;}
+.n-cases{width:570px;float: left;margin: 0 20px 50px 0;
     img{height: 240px;}
     h2{font-size: 24px;font-weight: normal;padding-top: 25px;}   
     p{font-size: 14px;line-height: 24px;}
@@ -655,16 +656,19 @@ textarea{border:none;border-bottom: 1px solid #aab2bd;font-size: 20px;line-heigh
     }
 }
 //发展现状
-.deve{float: left;width: calc((100% - 60px)/4);margin-bottom: 20px;position: relative;
+.deve{float: left;width:280px;margin-bottom: 20px;position: relative;margin-right: 20px;
+    img{height: 160px;}
     div{width: 80px;margin-top: -40px;left: 50%;margin-left: -40px;top: 50%;height: 80px;text-align: center;position: absolute;border-radius: 50%;background: rgba(255,255,255,.5);cursor: pointer;@include hover;
-        i{width: 50px;height: 25px;overflow: hidden;margin:20px auto 0;}
+        i{width: 50px;height: 25px;overflow: hidden;margin:20px auto 0;
+            img{height: 25px}
+        }
         p{font-size: 14px;line-height: 20px;}
     }
     &:hover{
         div{background: #fff;}
     }
 }
-.deve-more{float: left;width: calc((100% - 60px)/4);margin-bottom: 20px;height: 160px;background: #e6e9ed;text-align: center;cursor: pointer;position: absolute;bottom: 70px;right: 0;z-index: 99;
+.deve-more{float: left;width: 280px;margin-bottom: 20px;height: 160px;background: #e6e9ed;text-align: center;cursor: pointer;position: absolute;bottom: 70px;right: 0;z-index: 99;
     span{line-height: 160px;font-size: 14px;
        
     }
@@ -716,9 +720,10 @@ textarea{border:none;border-bottom: 1px solid #aab2bd;font-size: 20px;line-heigh
     &:hover{color: $color;}
 }
 .gd_main{width:10000px;overflow:hidden;position:relative;z-index:1;
-    .gd_main-div{width:$width;float:left;}
+    .gd_main-div{width:1200px;float:left;overflow: hidden;
+    }
 }
-.gd-x{width:($width / 2) - 10px;display:block;float:left;
+.gd-x{width:580px;display:block;float:left;margin-right: 20px;
     h2{font-size: 24px;font-weight: normal;padding-top: 20px;}
     p{font-size: 14px;}
 }

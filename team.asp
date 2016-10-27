@@ -23,38 +23,37 @@
 		<div class="w-1000" style="overflow: hidden;">
 			<div class="team-w team-con">
 				<div class="team-n">
-					<div class="n-100 mb-20">
-						<div class="team-c mr-20">
+					
+						<div class="team-c">
 							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team1_10.jpg" alt="" /></a>
 						</div>
-						<div class="team-c mr-20">
+						<div class="team-c">
 							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team2_10.jpg" alt="" /></a>
 						</div>
-						<div class="team-c mr-20">
+						<div class="team-c">
 							<a href="images/team3_10.jpg" data-lightbox="example-set"><img src="images/team3_10.jpg" alt="" /></a>
 						</div>
 						<div class="team-c">
 							<a href="images/team4_10.jpg" data-lightbox="example-set"><img src="images/team4_10.jpg" alt="" /></a>
 						</div>
-					</div>
-					<div class="n-100 mb-20">
-						<div class="team-c mr-20">
+					
+						<div class="team-c">
 							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team1_10.jpg" alt="" /></a>
 						</div>
-						<div class="team-c mr-20">
+						<div class="team-c">
 							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team2_10.jpg" alt="" /></a>
 						</div>
-						<div class="team-c mr-20">
+						<div class="team-c">
 							<a href="images/team4_10.jpg" data-lightbox="example-set"><img src="images/team3_10.jpg" alt="" /></a>
 						</div>
 						<div class="team-c">
 							<a href="images/team4_10.jpg" data-lightbox="example-set"><img src="images/team4_10.jpg" alt="" /></a>
 						</div>
-					</div>
+					
 
 				</div>
 				<div class="team-n">
-					<div class="n-100 mb-20">
+					
 						<div class="team-c mr-20">
 							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team1_10.jpg" alt="" /></a>
 						</div>
@@ -67,10 +66,10 @@
 						<div class="team-c">
 							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team2_10.jpg" alt="" /></a>
 						</div>
-					</div>
+					
 				</div>
 				<div class="team-n">
-					<div class="n-100 mb-20">
+					
 						<div class="team-c mr-20">
 							<a href="images/team4_10.jpg" data-lightbox="example-set"><img src="images/team3_10.jpg" alt="" /></a>
 						</div>
@@ -83,7 +82,7 @@
 						<div class="team-c">
 							<a href="images/team4_10.jpg" data-lightbox="example-set"><img src="images/team4_10.jpg" alt="" /></a>
 						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
