@@ -46,10 +46,11 @@
 		<div class="n-100">
 			<div class="join-x">
 				<i><img src="images/w4_04.jpg" alt="" /></i>
-				<h2>广告多、推广强<br />
-玩法新，业务多多</h2>
-				<p>帝标传媒150个城市社区广告全国覆盖，<br /> 线下业务需求直接拦截，
-					<br /> APP给锁匠免费派单。
+				<h2>建标准，树规范<br />
+给业务，投资收益有保障</h2>
+				<p>帝标传媒150个城市社区广告全国<br />覆盖，
+线下业务需求直接拦截，<br />
+APP给锁匠免费派单。
 				</p>
 			</div>
 			<div class="join-x">
@@ -99,20 +100,20 @@
 					<h2>业务支撑</h2>
 					<p class="p1">店面管理及促销策略，</p>
 					<p class="p2">店面装修方案提供，宣传物料支持；</p>
-					<p class="p3">锁匠加盟进货2万元，赠送100个业务订单；</p>
+					<p class="p3">锁匠加盟进货2万元，赠送100个业务订单。</p>
 				</div>
 				<div class="pol">
 					
 					<h2>宣传支持</h2>
 					<p class="p1">卖店和旗舰店，</p>
-					<p class="p2">进货20万以上，赠送同等价值的广告支持</p>
+					<p class="p2">进货20万以上，赠送同等价值的广告支持。</p>
 				</div>
 				<div class="pol">
 					
 					<h2>服务支持</h2>
 					<p class="p1">免费开换锁技术升级培训服务；</p>
 					<p class="p2">免费提供市场营销技巧培训服务；</p>
-					<p class="p3">销售结算一对一实时服务；</p>
+					<p class="p3">销售结算一对一实时服务。</p>
 				</div>
 			</div>
 		</div>
@@ -219,61 +220,7 @@
 					
 
 				</div>
-				<div class="gd_main-div">
-					
-						<div class="deve">
-							<img src="images/xz1_16.jpg" alt="" />
-							<div>
-								<i><img src="images/bj.png" alt="" /></i>
-								<p>30余名</p>
-							</div>
-						</div>
-						<div class="deve">
-							<img src="images/xz2_16.jpg" alt="" />
-							<div>
-								<i><img src="images/sh.png" alt="" /></i>
-								<p>30余名</p>
-							</div>
-						</div>
-						<div class="deve">
-							<img src="images/xz3_16.jpg" alt="" />
-							<div>
-								<i><img src="images/xa.png" alt="" /></i>
-								<p>30余名</p>
-							</div>
-						</div>
-						<div class="deve">
-							<img src="images/xz4_16.jpg" alt="" />
-							<div>
-								<i><img src="images/zz.png" alt="" /></i>
-								<p>30余名</p>
-							</div>
-						</div>
-					
-						<div class="deve">
-							<img src="images/xz5_16.jpg" alt="" />
-							<div>
-								<i><img src="images/ty.png" alt="" /></i>
-								<p>30余名</p>
-							</div>
-						</div>
-						<div class="deve">
-							<img src="images/xz6_16.jpg" alt="" />
-							<div>
-								<i><img src="images/jn.png" alt="" /></i>
-								<p>30余名</p>
-							</div>
-						</div>
-						<div class="deve">
-							<img src="images/xz7_16.jpg" alt="" />
-							<div>
-								<i><img src="images/hf.png" alt="" /></i>
-								<p>30余名</p>
-							</div>
-						</div>
-					
-
-				</div>
+				
 			</div>
 		</div>
 	</div>

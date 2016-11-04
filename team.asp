@@ -25,10 +25,12 @@
 				<div class="team-n">
 					
 						<div class="team-c">
-							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team1_10.jpg" alt="" /></a>
+							<img src="images/team1_10.jpg" alt="" />
+							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
 						</div>
 						<div class="team-c">
-							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team2_10.jpg" alt="" /></a>
+							<img src="images/team2_10.jpg" alt="" />
+							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
 						</div>
 						<div class="team-c">
 							<a href="images/team3_10.jpg" data-lightbox="example-set"><img src="images/team3_10.jpg" alt="" /></a>
@@ -38,10 +40,12 @@
 						</div>
 					
 						<div class="team-c">
-							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team1_10.jpg" alt="" /></a>
+							<img src="images/team1_10.jpg" alt="" />
+							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
 						</div>
 						<div class="team-c">
-							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team2_10.jpg" alt="" /></a>
+							<img src="images/team2_10.jpg" alt="" />
+							<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
 						</div>
 						<div class="team-c">
 							<a href="images/team4_10.jpg" data-lightbox="example-set"><img src="images/team3_10.jpg" alt="" /></a>

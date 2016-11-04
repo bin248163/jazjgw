@@ -16,23 +16,28 @@
 	<div class="w-1000">
 		<div class="ww">
 			<div class="view">
-				<div><img src="images/cf1_03.jpg" alt="" /></div>
-
-				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
+				<div>
+					<img src="images/cf1_03.jpg" alt="" />
+					<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
+				</div>				
 				<p>王先生为居安之家代言</p>
 				<span>公园美岸业主</span>
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
 			</div>
 			<div class="view">
-				<div><img src="images/cf2_03.jpg" alt="" /></div>
-				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
+				<div>
+					<img src="images/cf2_03.jpg" alt="" />
+					<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
+				</div>
 				<p>王先生为居安之家代言</p>
 				<span>公园美岸业主</span>
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
 			</div>
 			<div class="view">
-				<div><img src="images/cf3_03.jpg" alt="" /></div>
-				<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
+				<div>
+					<img src="images/cf3_03.jpg" alt="" />
+					<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
+				</div>	
 				<p>王先生为居安之家代言</p>
 				<span>公园美岸业主</span>
 				<a href="" class="view-i"><img src="images/view.png" alt="" /></a>
@@ -155,10 +160,12 @@
 			<div class="team-w team-con">
 				<div class="team-n">
 					<div class="team-c">
-						<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team1_10.jpg" alt="" /></a>
+						<img src="images/team1_10.jpg" alt="" />
+						<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
 					</div>
 					<div class="team-c">
-						<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team2_10.jpg" alt="" /></a>
+						<img src="images/team2_10.jpg" alt="" />
+						<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
 					</div>
 					<div class="team-c">
 						<a href="images/team4_10.jpg" data-lightbox="example-set"><img src="images/team3_10.jpg" alt="" /></a>
@@ -169,10 +176,12 @@
 				</div>
 				<div class="team-n">
 					<div class="team-c">
-						<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team1_10.jpg" alt="" /></a>
+						<img src="images/team1_10.jpg" alt="" />
+						<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
 					</div>
 					<div class="team-c">
-						<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp" target="_blank"><img src="images/team2_10.jpg" alt="" /></a>
+						<img src="images/team2_10.jpg" alt="" />
+						<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="sp view-a" target="_blank"><i class="iconfont">&#xe605;</i></a>
 					</div>
 				</div>
 				<div class="team-n">

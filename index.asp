@@ -40,17 +40,18 @@
 				</div>
 			</div>
 		</div>
+		<div class="head-w"></div>
 		<div class="w-100">
 			<div id="banner_tabs" class="flexslider">
 				<ul class="slides">
 					<li>
-						<img style="background: url(images/banner1_01.jpg) no-repeat center;" />
+						<img style="background: url(images/banner1.jpg) no-repeat center;" />
 					</li>
 					<li>
-						<img style="background: url(images/banner1_01.jpg) no-repeat center;" />
+						<img style="background: url(images/banner2.jpg) no-repeat center;" />
 					</li>
 					<li>
-						<img style="background: url(images/banner1_01.jpg) no-repeat center;" />
+						<img style="background: url(images/banner3.jpg) no-repeat center;" />
 					</li>
 				</ul>
 				<ul class="flex-direction-nav">
@@ -75,10 +76,12 @@
 				</ol>
 				<div class="slider-x">
 					<p>防火 / 防盗 / 居家安全监测服务</p>
-					<form action="">
-						<input type="tel" name="" id="" value="" class="place text1" maxlength="11" required="required" pattern="((\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$)" />
+					<form action="" target="hideIframe">
+						<input type="tel" name="" id="" value="" class="place text1" maxlength="11" required="required" />
 						<button type="submit">立即预约</button>
+
 					</form>
+
 				</div>
 			</div>
 		</div>
@@ -95,20 +98,21 @@
 				</div>
 				<div class="why-4">
 					<i class="i2"></i>
-					<span>海量锁匠</span>
-					<p>1分钟响应，15分钟上门<br /> 24小时全天候服务
+					<span>海量卫士</span>
+					<p>100+主要城市，<br />3600+安全卫士加盟
 					</p>
 				</div>
 				<div class="why-4">
 					<i class="i3"></i>
 					<span>专业服务</span>
-					<p>1分钟响应，15分钟上门<br /> 24小时全天候服务
+					<p>身份有备案，操作有监督，<br />服务有规范
 					</p>
 				</div>
 				<div class="why-4">
 					<i class="i4"></i>
 					<span>安全保障</span>
-					<p>1分钟响应，15分钟上门<br /> 24小时全天候服务
+					<p>统一收费价格，5年超长质保，<br />售后有保障
+
 					</p>
 				</div>
 			</div>
@@ -370,8 +374,8 @@
 			<a href="http://cloud.video.taobao.com//play/u/2555789220/p/2/e/1/t/1/41671080.swf" class="videoA" target="_blank"><i class="iconfont">&#xe605;</i></a>
 			<div class="video-w">
 				<div class="video">
-					<object data="" style="width: 100%;height: 100%;display: block;"></object> 
-					
+					<object data="" style="width: 100%;height: 100%;display: block;"></object>
+
 				</div>
 				<div class="x"></div>
 			</div>
@@ -435,7 +439,28 @@
 				<p>TOP</p>
 			</div>
 		</div>
-
+		<div class="dow">
+			<div class="dow-x"><img src="images/x_03.jpg" alt="" /></div>
+			<p class="dow1"></p>
+			<p class="dow2"></p>
+			<img src="images/true_07.jpg" alt="" />
+			<div class="dow3"></div>
+			<div class="dow4"></div>
+			<div class="dow5"></div>
+		</div>
+		<div class="tan">
+			<div class="tan-x"><img src="images/tab-x.png" alt="" /></div>
+			<img src="images/tan_03.jpg" alt="" />
+			<p class="tan1">请输入正确的手机号码</p>
+		</div>
+		<div class="chong">
+			<div class="chong-x"><img src="images/x_03.jpg" alt="" /></div>
+			<p class="chong1">您已经预约过了，请勿重复提交</p>
+			<p class="dow2"></p>
+			<img src="images/false_07.jpg" alt="" />
+			<div class="chong3"></div>
+		</div>
+		<div class="dow-w"></div>
 	</body>
 	<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
 
@@ -457,6 +482,16 @@
 		});
 		$('#banner_tabs .flex-next').click(function() {
 			bannerSlider.next()
+		});
+
+		$(window).scroll(function() {
+			if($(window).scrollTop() > 0) {
+				$('.head').addClass('head-index');
+				
+			}
+			if($(window).scrollTop() < 1) {
+				$('.head').removeClass('head-index');
+			}
 		});
 	</script>
 
